@@ -23,7 +23,7 @@ export default {
 <style scoped>
   .header {
       background-color: #bbb;
-      padding: 3px; 
+      padding: 3px;
       cursor: pointer;
   }
 </style>

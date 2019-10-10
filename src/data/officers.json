@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1, 
+        "Title": "Commodore", 
+        "Name": "Phil Decker", 
+        "Email": "commodore@gulfstreamsailingclub.org"
+    },
+    {
+        "id": 2, 
+        "Title": "Vice Commodore", 
+        "Name": "Paul Jehlen", 
+        "Email": "vicecommodore@gulfstreamsailingclub.org"
+    },
+    {
+        "id": 3, 
+        "Title": "Rear Commodore", 
+        "Name": "Eric Kobrin", 
+        "Email": "rearcommodore@gulfstreamsailingclub.org"
+    },
+    {
+        "id": 4, 
+        "Title": "Secretary", 
+        "Name": "Sam Walker", 
+        "Email": "secretary@gulfstreamsailingclub.org"
+    },
+    {
+        "id": 5, 
+        "Title": "Treasurer", 
+        "Name": "Paul Hinden", 
+        "Email": "treasurer@gulfstreamsailingclub.org"
+    },
+    {
+        "id": 6, 
+        "Title": "Past Commodore", 
+        "Name": "Ben Bowen", 
+        "Email": "board@gulfstreamsailingclub.org"
+    },
+    {
+        "id": 7, 
+        "Title": "Lake Operations Director", 
+        "Name": "Luis Oliveira", 
+        "Email": "board@gulfstreamsailingclub.org"
+    },
+    {
+        "id": 8, 
+        "Title": "Board Member", 
+        "Name": "Joffre DiSabatino", 
+        "Email": "board@gulfstreamsailingclub.org"
+    },
+    {
+        "id": 9, 
+        "Title": "Board Member", 
+        "Name": "Linda Gossett", 
+        "Email": "board@gulfstreamsailingclub.org"
+    },
+    {
+        "id": 10, 
+        "Title": "Board Member", 
+        "Name": "Gregg Henry", 
+        "Email": "board@gulfstreamsailingclub.org"
+    }
+
+]

@@ -21,6 +21,8 @@
       <v-col cols="4">
         <Sponsors></Sponsors>
       </v-col>
+    </v-row>
+    <v-row>
       <v-col cols="8">
         <v-card>
           <v-card-title>What's New</v-card-title>
@@ -35,16 +37,27 @@
           </v-card-text>
         </v-card>
       </v-col>
+      <v-col>
+        <v-card  max-height="250px" class="overflow-y-auto">
+          <TillerTales></TillerTales>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+
+      </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
-import Sponsors from '../components/Sponsors/Sponsors'
+import Sponsors from '../components/Sponsors'
+import TillerTales from '../components/TillerTales'
 
 export default {
   components: {
-    Sponsors
+    Sponsors, TillerTales
   }
 }
 </script>

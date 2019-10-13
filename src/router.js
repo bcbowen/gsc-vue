@@ -38,19 +38,14 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Meetings.vue')
     },
     {
-      path: '/news',
-      name: 'news',
-      component: () => import(/* webpackChunkName: "about" */ './views/News.vue')
-    },
-    {
       path: '/events',
       name: 'events',
       component: () => import(/* webpackChunkName: "about" */ './views/Events.vue')
     },
     {
-      path: '/join',
-      name: 'join',
-      component: () => import(/* webpackChunkName: "about" */ './views/Join.vue')
+      path: '/membership',
+      name: 'membership',
+      component: () => import(/* webpackChunkName: "about" */ './views/Membership.vue')
     }
   ]
 })

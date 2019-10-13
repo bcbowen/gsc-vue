@@ -59,16 +59,12 @@ export default {
           url: '/meetings'
         },
         {
-          label: 'News',
-          url: '/news'
-        },
-        {
           label: 'Events',
           url: '/events'
         },
         {
-          label: 'Join',
-          url: '/join'
+          label: 'Membership',
+          url: '/membership'
         }
       ]
     }

@@ -1,14 +1,14 @@
 <template>
   <div>
     <v-card>
-      <v-card-title>Meeting Minutes</v-card-title>
+      <v-card-title>Tiller Tales</v-card-title>
       <v-expansion-panels accordion>
-        <v-expansion-panel v-for="(year, i) in this.minutes" :key="i">
+        <v-expansion-panel v-for="(year, i) in this.tillerTalesData" :key="i">
           <v-expansion-panel-header>{{ year.year }}</v-expansion-panel-header>
           <v-expansion-panel-content>
             <p v-for="(month, i) in year.months" :key="i">
               <a
-                :href="`http://www.gulfstreamsailingclub.org/docs/meeting_mins/General${year.year}${month}.pdf`"
+                :href="`http://www.gulfstreamsailingclub.org/docs/tiller_tales/${year.year}${month}TillerTales.pdf`"
                 target="_new"
               >{{ getMonth(month) }}</a>
             </p>
@@ -18,15 +18,14 @@
     </v-card>
   </div>
 </template>
-
 <script>
-import MinutesData  from '../data/minutesData.json'
+import TillerTalesData  from '../data/tillerTales.json'
 export default {
-  name: "MeetingMinutes",
+  name: "TillerTales",
 
   data() {
     return {
-      minutes: MinutesData.MeetingMinutes
+      tillerTalesData: TillerTalesData
     };
   },
   methods: {

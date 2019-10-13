@@ -1,24 +1,29 @@
 <template>
   <div>
-    
+<!--
     <v-card>
       <v-card-title>Sponsors</v-card-title>
 
       <v-list>
         <v-list-item v-for="(sponsor, i) in sponsors" :key="i">
           <v-list-item-content>
-            <v-img :src="require(sponsor.src)"></v-img>
+            <v-img :src="sponsor.path"></v-img>
           </v-list-item-content>
         </v-list-item>
       </v-list>
     </v-card>
-
-    <!--
-    <div>
-      <p>yadda</p>
-      <v-img src="@/assets/sponsors/BOW.png"></v-img>
-    </div>
     -->
+
+    <div>
+      <p v-for="(sponsor, i) in sponsors">
+       <!--
+       {{ sponsor.path }}: <v-img :src="`${sponsor.path}`"></v-img>
+        -->
+        <img :src="sponsor.path"/>
+      </p>
+
+    </div>
+
   </div>
 </template>
 
@@ -29,8 +34,10 @@ export default {
     return {
       sponsors: [
         {
-          src: '@/assets/sponsors/BlueWater.png'
-        },
+          path: './components/Sponsors/BlueWater.png'
+        }
+/*
+        ,
         {
           src: '@/assets/sponsors/BOW.png'
         },
@@ -40,6 +47,7 @@ export default {
         {
           src: '@/assets/sponsors/SAILORMAN.png'
         }
+        */
       ]
     }
   }

@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import Sponsors from '../components/Sponsors'
+import Sponsors from '../components/Sponsors/Sponsors'
 
 export default {
   components: {

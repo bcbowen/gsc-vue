@@ -25,27 +25,27 @@ export default new Router({
     {
       path: '/sailorsPoint',
       name: 'sailorsPoint',
-      component: () => import(/* webpackChunkName: "about" */ './views/SailorsPoint.vue')
+      component: () => import(/* webpackChunkName: "sailorsPoint" */ './views/SailorsPoint.vue')
     },
     {
       path: '/contacts',
       name: 'contacts',
-      component: () => import(/* webpackChunkName: "about" */ './views/Contacts.vue')
+      component: () => import(/* webpackChunkName: "contacts" */ './views/Contacts.vue')
     },
     {
       path: '/meetings',
       name: 'meetings',
-      component: () => import(/* webpackChunkName: "about" */ './views/Meetings.vue')
+      component: () => import(/* webpackChunkName: "meetings" */ './views/Meetings.vue')
     },
     {
       path: '/events',
       name: 'events',
-      component: () => import(/* webpackChunkName: "about" */ './views/Events.vue')
+      component: () => import(/* webpackChunkName: "events" */ './views/Events.vue')
     },
     {
       path: '/membership',
       name: 'membership',
-      component: () => import(/* webpackChunkName: "about" */ './views/Membership.vue')
+      component: () => import(/* webpackChunkName: "membership" */ './views/Membership.vue')
     }
   ]
 })

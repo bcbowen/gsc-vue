@@ -25,7 +25,29 @@ export default new Router({
     {
       path: '/sailorsPoint',
       name: 'sailorsPoint',
-      component: () => import(/* webpackChunkName: "sailorsPoint" */ './views/SailorsPoint.vue')
+      component: () => import(/* webpackChunkName: "sailorsPoint" */ './views/SailorsPoint.vue'),
+      children: [
+        {
+          path: 'about',
+          component: () => import(/* webpackChunkName: "sailorspoint-about" */ './components/SailorsPoint/About.vue')
+        },
+        {
+          path: 'classes',
+          component: () => import(/* webpackChunkName: "sailorspoint-classes" */ './components/SailorsPoint/Classes.vue')
+        },
+        {
+          path: 'kidLearnToSail',
+          component: () => import(/* webpackChunkName: "sailorspoint-kidsLearnToSail" */ './components/SailorsPoint/KidLearnToSail.vue')
+        },
+        {
+          path: 'adultLearnToSail',
+          component: () => import(/* webpackChunkName: "sailorspoint-adultLearnToSail" */ './components/SailorsPoint/AdultLearnToSail.vue')
+        },
+        {
+          path: 'racing',
+          component: () => import(/* webpackChunkName: "sailorspoint-racing" */ './components/SailorsPoint/Racing.vue')
+        }
+      ]
     },
     {
       path: '/contacts',

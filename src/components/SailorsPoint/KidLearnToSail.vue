@@ -1,10 +1,10 @@
 <template>
   <div id="home_content">
-    <h1>2019 LEARN-TO-SAIL SCHEDULE (kids ages 8 to 14 - level 1)</h1>
+    <h3>2019 LEARN-TO-SAIL SCHEDULE (kids ages 8 to 14 - level 1)</h3>
     <hr />
 
     <table width="640px" cellpadding="0" cellspacing="0" align="center" class="Schedule">
-      <tr>
+      <thead>
         <th>&nbsp;</th>
         <th>
           <b>Registration:</b>
@@ -15,66 +15,11 @@
         <th>Class 4</th>
         <th>Class 5</th>
         <th>Class 6</th>
-      </tr>
-      <tr>
-        <td>
-          <h2>Session 1:</h2>
-        </td>
-        <td>Jan 5</td>
-        <td>Jan 20</td>
-        <td>Jan 27</td>
-        <td>Feb 3</td>
-        <td>Feb 10</td>
-        <td>Feb 17</td>
-        <td>Feb 24</td>
-      </tr>
-      <tr>
-        <td>
-          <h2>Session 2:</h2>
-        </td>
-        <td>Feb 23</td>
-        <td>Mar 10</td>
-        <td>Mar 17</td>
-        <td>Mar 24</td>
-        <td>Mar 31</td>
-        <td>Apr 7</td>
-        <td>Apr 14</td>
-      </tr>
-      <tr>
-        <td>
-          <h2>Session 3:</h2>
-        </td>
-        <td>Apr 13</td>
-        <td>Apr 28</td>
-        <td>May 5</td>
-        <td>May 19</td>
-        <td>Jun 2</td>
-        <td>Jun 9</td>
-        <td>Jun 15*</td>
-      </tr>
-      <tr>
-        <td>
-          <h2>Session 4:</h2>
-        </td>
-        <td>Aug 10</td>
-        <td>Aug 25</td>
-        <td>Sep 8</td>
-        <td>Sep 15</td>
-        <td>Sep 22</td>
-        <td>Sep 29</td>
-        <td>Oct 6</td>
-      </tr>
-      <tr>
-        <td>
-          <h2>Session 5:</h2>
-        </td>
-        <td>Oct 5</td>
-        <td>Oct 20</td>
-        <td>Oct 27</td>
-        <td>Nov 3</td>
-        <td>Nov 17</td>
-        <td>Nov 24</td>
-        <td>Dec 8</td>
+      </thead>
+      <tr v-for="session in KidsSchedule" :key="session.Session">
+        <td>Session {{session.Session}}:</td>
+        <td>{{session.Registration}}</td>
+        <td v-for="(c, i) in session.Classes" :key="i">{{c}}</td>
       </tr>
     </table>
     <div>
@@ -146,7 +91,14 @@
 </template>
 
 <script>
-export default {};
+import KidsLTSScheduleData from '@/data/kidsSchedule.json'
+export default {
+  data() {
+    return {
+      KidsSchedule: KidsLTSScheduleData
+    }
+  },
+};
 </script>
 
 <style lang="scss" scoped>

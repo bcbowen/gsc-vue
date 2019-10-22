@@ -53,10 +53,41 @@
   import Directions from '../components/SailorsPoint/Directions'
   export default {
     name: "SailorsPoint",
-    components: {Directions}
+    components: {Directions},
+    created() {
+      this.$router.push('sailorspoint/about')
+    }
   }
 </script>
 
-<style lang="scss" scoped>
+<style>
+table {
+  border: 2px solid #1976d2;
+  border-radius: 3px;
+  background-color: #fff;
+}
 
+th {
+  background-color: #1976d2;
+  color: rgba(255, 255, 255, 0.66);
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+th,
+td {
+  min-width: 120px;
+  padding: 10px 20px;
+}
+
+th.active {
+  color: #fff;
+}
 </style>

@@ -1,0 +1,62 @@
+[
+    {
+       "Session": 1, 
+       "ClassDates": "Jan 12 & 13",
+       "Registration": "Jan 19"
+    },
+    {
+        "Session": 2, 
+        "ClassDates": "Feb 9 & 10",
+        "Registration": "Feb 23"
+     },
+     {
+        "Session": 3, 
+        "ClassDates": "Mar 16 & 17",
+        "Registration": "Mar 23"
+     },
+     {
+        "Session": 4, 
+        "ClassDates": "Apr 13 & 14",
+        "Registration": "Apr 27"
+     },
+     {
+        "Session": 5, 
+        "ClassDates": "May 18 & 19",
+        "Registration": "Jun 8"
+     },
+     {
+        "Session": 6, 
+        "ClassDates": "Jun 15 & 16",
+        "Registration": "Jun 29"
+     },
+     {
+        "Session": 7, 
+        "ClassDates": "Jul 20 & 21",
+        "Registration": "Jul 27"
+     },
+     {
+        "Session": 8, 
+        "ClassDates": "Aug 17 & 18",
+        "Registration": "Sep 7"
+     },
+     {
+        "Session": 9, 
+        "ClassDates": "Sep 21 & 22",
+        "Registration": "Sep 28"
+     },
+     {
+        "Session": 10, 
+        "ClassDates": "Oct 19 & 20",
+        "Registration": "Nov 2"
+     },
+     {
+        "Session": 11, 
+        "ClassDates": "Nov 23 & 24",
+        "Registration": "Dec 21"
+     },
+     {
+        "Session": 12, 
+        "ClassDates": "Dec 14 & 15",
+        "Registration": "Dec 21"
+     }
+]

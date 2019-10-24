@@ -1,4 +1,4 @@
-# gulfstream2
+# gsc vue
 
 ## Project setup
 ```

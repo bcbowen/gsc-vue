@@ -21,18 +21,13 @@
           target="_blank"
           active-class="sponsorImage"
         >
-          <v-row
-            align="center"
-            justify="center"
-          >
-            <v-col>
-              <v-img :src="sponsor.path" :height="sponsor.height" :width="sponsor.width"></v-img>
+          <v-row>
+            <v-col >
+                <v-row align="center" justify="center">
+                  <img :src="sponsor.path" :height="sponsor.height" :width="sponsor.width" />
+                </v-row>
             </v-col>
-
           </v-row>
-
-
-
         </v-carousel-item>
       </v-carousel>
     </v-card>

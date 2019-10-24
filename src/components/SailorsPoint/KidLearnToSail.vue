@@ -25,7 +25,6 @@
       <b>* Denotes Saturday classes</b>
     </div>
 
-
     <h3>Summer Camps</h3>
 
     <p>
@@ -34,18 +33,62 @@
     </p>
 
     <b>Camp runs from 9:00 to 1:00</b>
+    <br />
+    <br />
 
-    <h3>Camp Dates:</h3>Camp 1 - Jun 10 - 14
-    <br />Camp 2 - Jun 17 - 21
-    <br />Camp 3 - Jun 24 - 28
-    <br />
-    <b>No Camp - Jul 1 - 5</b>
-    <br />Camp 4 - Jul 8 - 12
-    <br />Camp 5 - Jul 15 - 19
-    <br />Camp 6 - Jul 22 - 26
-    <br />Camp 7 - Jul 29 - Aug 2
-    <br />Camp 8 - Aug 5 - 9
-    <br />
+    <h3>Summer Camp Schedule</h3>
+    <table>
+      <thead>
+        <th>Camp</th>
+        <th>Start</th>
+        <th>End</th>
+      </thead>
+      <tr>
+        <td>1</td>
+        <td>Jun 10</td>
+        <td>Jun 14</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Jun 17</td>
+        <td>Jun 21</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Jun 24</td>
+        <td>Jun 28</td>
+      </tr>
+      <tr>
+        <td><b>No Camp</b></td>
+        <td>Jul 1</td>
+        <td>Jul 5</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td> Jul 8</td>
+        <td> Jul 12</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Jul 15</td>
+        <td>Jul 19</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Jul 22</td>
+        <td>Jul 26</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Jul 29</td>
+        <td>Aug 2</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Aug 5</td>
+        <td>Aug 9</td>
+      </tr>
+    </table>
 
     <p>
       <b>Registrations:</b>

@@ -12,8 +12,6 @@
     <h3>Commodores Cup</h3>
     <b>Dec 7</b>
 
-    <hr />
-
     <p>Skipper&apos;s meeting at 11:00 AM each day, races start shortly thereafter.</p>
 
     <p>

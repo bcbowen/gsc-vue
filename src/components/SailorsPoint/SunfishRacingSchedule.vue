@@ -1,7 +1,6 @@
 <template>
   <div>
     <h3>2019 Sunfish Racing Schedule</h3>
-    <hr />
     <table>
       <thead>
         <th>Winter Series</th>

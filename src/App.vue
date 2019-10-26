@@ -1,24 +1,30 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
-      <img src=".\assets\gsc_logo_bl_bkg_sm.jpg" class="logo mr-4" />
-      <v-toolbar-title>
-        <h1>Gulfstream Sailing Club</h1>
-      </v-toolbar-title>
-      <v-spacer></v-spacer>
+    <v-header class="mainlogo">
+      <span>
+        <img src=".\assets\gsc_logo_bl_bkg_sm.jpg" class="logo mr-4" /> Gulfstream Sailing Club
+      </span>
+    </v-header>
+    <v-toolbar
+      dark="true"
+      color="primary darken-1"
 
-      <v-btn
-        v-for="link in links"
-        :key="`${link.label}-header-link`"
-        text
-        rounded
-        :to="link.url"
-      >{{ link.label }}</v-btn>
-    </v-app-bar>
+    >
+      <v-toolbar-items>
+        <v-btn
+          v-for="link in links"
+          :key="`${link.label}-header-link`"
+          text
+          :to="link.url"
+          dark
+        >{{ link.label }}</v-btn>
+      </v-toolbar-items>
+    </v-toolbar>
 
     <v-content>
       <router-view></router-view>
     </v-content>
+
     <v-footer color="primary lighten-1" padless>
       <v-layout justify-center wrap>
         <v-btn
@@ -36,40 +42,39 @@
 </template>
 
 <script>
-
 export default {
-  name: 'App',
-  data () {
+  name: "App",
+  data() {
     return {
       links: [
         {
-          label: 'Home',
-          url: '/'
+          label: "Home",
+          url: "/"
         },
         {
-          label: 'Sailors Point',
-          url: '/sailorsPoint'
+          label: "Sailors Point",
+          url: "/sailorsPoint"
         },
         {
-          label: 'Contacts',
-          url: '/contacts'
+          label: "Contacts",
+          url: "/contacts"
         },
         {
-          label: 'Meetings',
-          url: '/meetings'
+          label: "Meetings",
+          url: "/meetings"
         },
         {
-          label: 'Events',
-          url: '/events'
+          label: "Events",
+          url: "/events"
         },
         {
-          label: 'Membership',
-          url: '/membership'
+          label: "Membership",
+          url: "/membership"
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style scoped>
@@ -77,4 +82,10 @@ export default {
   vertical-align: middle;
   height: 40px;
 }
+.mainlogo {
+  background-color: #003366;
+  font-size: xx-large;
+  color: white;
+}
+
 </style>

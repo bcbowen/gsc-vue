@@ -1,5 +1,23 @@
 <template>
   <div>
+    <v-carousel
+        continuous
+        cycle="cycle"
+        height="500px"
+        hide-delimiters="true"
+        show-arrows="false"
+        show-arrows-on-hover="false"
+    >
+      <v-carousel-item
+        v-for="(klsImage, i) in klsImages"
+        :key="i"
+      >
+        <v-row align="center" justify="center">
+          <img :src="klsImage" height="475px"/>
+        </v-row>
+      </v-carousel-item>
+    </v-carousel>
+
     <h3>2019 LEARN-TO-SAIL SCHEDULE (kids ages 8 to 14 - level 1)</h3>
 
     <table>
@@ -129,10 +147,17 @@
 
 <script>
 import KidsLTSScheduleData from '@/data/kidsSchedule.json'
+const images = []
+for (let i = 1; i < 21; i++) {
+  images.push(require(`@/assets/KLS/2019summer_${i}.jpg`))
+}
+//images.push(require('@/assets/KLS/2019summer_1.jpg'))
+//images.push('http://www.gulfstreamsailingclub.org/images/SPONSORS/2019/BlueWater.png')
 export default {
   data() {
     return {
-      KidsSchedule: KidsLTSScheduleData
+      KidsSchedule: KidsLTSScheduleData,
+      klsImages: images
     }
   },
 };

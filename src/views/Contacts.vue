@@ -1,11 +1,18 @@
 <template>
   <div>
-    <v-divider vertical="true"></v-divider>
-    <OfficersTable :officers="officers"></OfficersTable>
-    <v-divider vertical="true"></v-divider>
-    <CommitteeChairsTable :chairs="chairs"></CommitteeChairsTable>
-    <v-divider vertical="true"></v-divider>
-    <p>Contact the <a href="mailto:board@gulfstreamsailingclub.org">Board</a> for more information.</p>
+    <v-container>
+      <v-row>
+        <v-col cols="12" md="6"><OfficersTable :officers="officers"></OfficersTable></v-col>
+        <v-col cols="12" md="6"><CommitteeChairsTable :chairs="chairs"></CommitteeChairsTable></v-col>
+      </v-row>
+      <v-row>
+        <v-col cols=12>
+          <p>Contact the <a href="mailto:board@gulfstreamsailingclub.org">Board</a> for more information.</p>
+        </v-col>
+      </v-row>
+    </v-container>
+    
+
   </div>
 
 </template>

@@ -68,6 +68,21 @@ export default new Router({
       path: '/membership',
       name: 'membership',
       component: () => import(/* webpackChunkName: "membership" */ './views/Membership.vue')
+    },
+    {
+      path: '/calendar',
+      name: 'calendar',
+      component: () => import(/* webpackChunkName: "calendar" */ './views/Calendar.vue')
+    },
+    {
+      path: '/photos',
+      name: 'photos',
+      component: () => import(/* webpackChunkName: "photos" */ './views/Photos.vue')
+    },
+    {
+      path: '/regatta',
+      name: 'regatta',
+      component: () => import(/* webpackChunkName: "membership" */ './views/Regatta.vue')
     }
   ]
 })

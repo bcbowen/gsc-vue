@@ -64,12 +64,24 @@ export default {
           url: "/meetings"
         },
         {
+          label: "Calendar",
+          url: "/calendar"
+        },
+        {
+          label: "Photos",
+          url: "/photos"
+        },
+        {
           label: "Events",
           url: "/events"
         },
         {
           label: "Membership",
           url: "/membership"
+        },
+        {
+          label: "Regatta",
+          url: "/regatta"
         }
       ]
     };

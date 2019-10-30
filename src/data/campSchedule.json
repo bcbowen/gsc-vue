@@ -1,0 +1,42 @@
+[
+    {
+       "Session": 1, 
+       "Start": "Jun 10",
+       "End": "Jun 14"
+    },
+    {
+        "Session": 2, 
+        "Start": "Jun 17",
+        "End": "Jun 21"
+     },
+     {
+        "Session": 3, 
+        "Start": "Jun 24",
+        "End": "Jun 28"
+     },
+     {
+        "Session": 4, 
+        "Start": "Jul 8",
+        "End": "Jul 12"
+     },
+     {
+        "Session": 5, 
+        "Start": "Jul 15",
+        "End": "Jul 19"
+     },
+     {
+        "Session": 6, 
+        "Start": "Jul 22",
+        "End": "Jul 26"
+     },
+     {
+        "Session": 7, 
+        "Start": "Jul 29",
+        "End": "Aug 2"
+     },
+     {
+        "Session": 8, 
+        "Start": "Aug 5",
+        "End": "Aug 9"
+     }
+]

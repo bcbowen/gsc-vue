@@ -59,11 +59,13 @@ export default new Router({
       name: 'meetings',
       component: () => import(/* webpackChunkName: "meetings" */ './views/Meetings.vue')
     },
+    /*
     {
       path: '/events',
       name: 'events',
-      component: () => import(/* webpackChunkName: "events" */ './views/Events.vue')
+      component: () => import(/ webpackChunkName: "events" / './views/Events.vue')
     },
+    */
     {
       path: '/membership',
       name: 'membership',

@@ -13,7 +13,7 @@
                 Our annual Beach Bash each August
                 Our annual Gulfstream Sailing Club Regatta, which began in 1991, continues to this day with multiple sailing clubs participating each year
                 Sailing lessons for Adults and Children at Sailors Point.
-                In case you are interested, you can read the current Club bylaws here.
+                In case you are interested, you can read the current Club bylaws <a href="http://gulfstreamsailingclub.org/inc/Bylaws201810_1.pdf" target="_blank">here</a>.
             </v-card-text>
 
         </v-card>

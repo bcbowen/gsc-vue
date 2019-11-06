@@ -3,25 +3,6 @@
     <v-container>
       <v-row>
         <v-col>
-          <v-carousel
-            continuous
-            cycle="cycle"
-            height="500px"
-            hide-delimiters="true"
-            show-arrows="false"
-            show-arrows-on-hover="false"
-          >
-            <v-carousel-item v-for="(klsImage, i) in klsImages" :key="i">
-              <v-row align="center" justify="center">
-                <img :src="klsImage" height="475px" />
-              </v-row>
-            </v-carousel-item>
-          </v-carousel>
-        </v-col>
-      </v-row>
-
-      <v-row>
-        <v-col>
           <h3>2019 LEARN-TO-SAIL SCHEDULE (kids ages 8 to 14 - level 1)</h3>
 
           <table>
@@ -43,14 +24,10 @@
               <td v-for="(c, i) in session.Classes" :key="i">{{c}}</td>
             </tr>
           </table>
-          <div>
-            <b>* Denotes Saturday classes</b>
-          </div>
         </v-col>
       </v-row>
-
       <v-row>
-        <v-col>
+        <v-col cols="7">
           <p>
             <b>Registration for all camps:</b> Saturday May 4th; 9:00 to 10:00 AM at Sailor&apos;s Point.
             <br />Club members only may register as of January 2nd. There will be no rescheduling of any camp day due to bad weather.
@@ -60,6 +37,23 @@
           <br />
           <br />
         </v-col>
+        <v-col cols="5">
+          <v-carousel
+            continuous
+            cycle="cycle"
+            height="250px"
+            hide-delimiters="true"
+            show-arrows="false"
+            show-arrows-on-hover="false"
+          >
+            <v-carousel-item v-for="(klsImage, i) in klsImages" :key="i">
+              <v-row align="center" justify="center">
+                <img :src="klsImage" height="250px" />
+              </v-row>
+            </v-carousel-item>
+          </v-carousel>
+        </v-col>
+
       </v-row>
       <v-row>
         <v-col cols="5">

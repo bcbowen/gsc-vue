@@ -12,7 +12,10 @@
         </v-col>
         <v-col cols="4">
           <v-row>
-            <v-col><MeetingMinutes></MeetingMinutes></v-col>
+            <v-col><GeneralMinutes></GeneralMinutes></v-col>
+          </v-row>
+          <v-row>
+            <v-col><BoardMinutes></BoardMinutes></v-col>
           </v-row>
         </v-col>
       </v-row>
@@ -21,12 +24,13 @@
 </template>
 
 <script>
-import HappyHour from "../components/HappyHour/HappyHour";
-import MeetingMinutes from "../components/MeetingMinutes";
-import MeetingInfo from "../components/MeetingInfo";
+import HappyHour from "../components/HappyHour/HappyHour"
+import GeneralMinutes from "../components/GeneralMinutes"
+import BoardMinutes from "../components/BoardMinutes"
+import MeetingInfo from "../components/MeetingInfo"
 export default {
-  components: { HappyHour, MeetingMinutes, MeetingInfo }
-};
+  components: { HappyHour, GeneralMinutes, BoardMinutes, MeetingInfo }
+}
 </script>
 
 <style lang="scss" scoped>

@@ -2,9 +2,7 @@ module.exports = {
   'transpileDependencies': [
     'vuetify'
   ],
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/gsc_beta/'
-    : '/',
+  publicPath: '/',
   chainWebpack: config => {
     config.module
       .rule('vue')
@@ -21,3 +19,9 @@ module.exports = {
       }))
   }
 }
+
+/*
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/gsc_beta/'
+    : '/',
+*/

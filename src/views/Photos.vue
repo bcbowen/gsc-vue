@@ -4,7 +4,7 @@
       <v-row>
         <v-col>
           <iframe
-            src="http://gulfstreamsailingclub.org/piwigo"
+            src="https://gulfstreamsailingclub.org/piwigo"
             style="border-width:0"
             width="100%"
             height="600"

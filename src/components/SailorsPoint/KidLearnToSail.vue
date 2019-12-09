@@ -37,18 +37,18 @@
           <br />
           <br />
         </v-col>
-        <v-col lg="5" md="6" sm="12">
+        <v-col md="6" sm="12">
           <v-carousel
             continuous
             cycle="cycle"
-            height="250px"
+            height="400px"
             hide-delimiters="true"
             show-arrows="false"
             show-arrows-on-hover="false"
           >
             <v-carousel-item v-for="(klsImage, i) in klsImages" :key="i">
               <v-row align="center" justify="center">
-                <img :src="klsImage" height="250px" />
+                <img :src="klsImage" height="400px" />
               </v-row>
             </v-carousel-item>
           </v-carousel>
@@ -56,7 +56,7 @@
 
       </v-row>
       <v-row>
-        <v-col lg="5" md="6" sm="12">
+        <v-col md="6" sm="12">
           <h2>Summer Camps</h2>
 
           <h3>Summer Camp Schedule</h3>

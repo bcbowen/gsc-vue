@@ -2,62 +2,79 @@
   <div>
     <v-container>
       <v-row>
-        <v-col>
-          <v-toolbar color="primary" dark>
-            <v-btn
-              to="/sailorspoint/about"
-              color="info"
-              class="mr-2"
-            >About</v-btn>
-            <v-btn
-              to="/sailorspoint/classes"
-              color="info"
-              class="mr-2"
-            >Classes</v-btn>
-            <v-btn
-              to="/sailorspoint/kidLearnToSail"
-              color="info"
-              class="mr-2"
-            >Kid Learn To Sail</v-btn>
-            <v-btn
-              to="/sailorspoint/adultLearnToSail"
-              color="info"
-              class="mr-2"
-            >Adult Learn To Sail</v-btn>
-            <v-btn
-              to="/sailorspoint/racing"
-              color="info"
-              class="mr-2"
-            >Racing</v-btn>
+        <v-col cols="12"><h1>Sailors Point</h1></v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="">
+          <v-navigation-drawer permanent="true">
+            <v-list
+              dark="true"
+              color="primary darken-1"
+              dense="true">
+              <v-list-item>
+              <v-btn
+                to="/sailorspoint/about"
+                color="info"
+                class="mr-2 flex">About</v-btn>
+            </v-list-item>
+            <v-list-item>
+              <v-btn
+                to="/sailorspoint/classes"
+                color="info"
+                class="mr-2 flex">Classes</v-btn>
+            </v-list-item>
+            <v-list-item>
+              <v-btn
+                to="/sailorspoint/kidLearnToSail"
+                color="info"
+                class="mr-2 flex">Kid Learn To Sail</v-btn>
+            </v-list-item>
+              <v-list-item>
+              <v-btn
+                to="/sailorspoint/adultLearnToSail"
+                color="info"
+                class="mr-2 flex"
+              >Adult Learn To Sail</v-btn>
+            </v-list-item>
+            <v-list-item>
+              <v-btn
+                to="/sailorspoint/racing"
+                color="info"
+                class="mr-2 flex"
+              >Racing</v-btn>
+            </v-list-item>
 
-          </v-toolbar>
+              <!--
+              <v-list-title>
+                <v-list-title-action></v-list-title-action>
+                <v-list-title-content><v-list-tile-title>{{ item.title }}</v-list-tile-title></v-list-title-content>
+              </v-list-title>
+              -->
+            </v-list>
+
+          </v-navigation-drawer>
         </v-col>
-      </v-row>
-      <v-row>
-        <v-col>
-          <router-link></router-link>
-          <router-view></router-view>
+        <v-col cols="9">
+          <v-row>
+            <v-col cols="12"><router-view></router-view></v-col>
+            <v-col cols="12"><Directions/></v-col>
+            <v-col cols="12">For more information contact: <a href="mailto:sailorspoint@gulfstreamsailingclub.org">sailorspoint@gulfstreamsailingclub.org</a></v-col>
+          </v-row>
         </v-col>
-      </v-row>
-      <v-row>
-        <v-col><Directions/></v-col>
-      </v-row>
-      <v-row>
-        <v-col>For more information contact: <a href="mailto:sailorspoint@gulfstreamsailingclub.org">sailorspoint@gulfstreamsailingclub.org</a></v-col>
       </v-row>
     </v-container>
   </div>
 </template>
 
 <script>
-  import Directions from '../components/SailorsPoint/Directions'
-  export default {
-    name: "SailorsPoint",
-    components: {Directions},
-    created() {
-      this.$router.push('sailorspoint/about')
-    }
+import Directions from "../components/SailorsPoint/Directions";
+export default {
+  name: "SailorsPoint",
+  components: { Directions },
+  created() {
+    this.$router.push("sailorspoint/about");
   }
+};
 </script>
 
 <style>

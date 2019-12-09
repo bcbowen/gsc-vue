@@ -35,6 +35,7 @@
         dense="true">
          <v-list-item v-for="link in links" :key="`${link.label}-header-link`">
           <v-btn
+            class="flex"
             text
             :to="link.url"
             dark

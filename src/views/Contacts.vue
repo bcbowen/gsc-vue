@@ -2,8 +2,8 @@
   <div>
     <v-container>
       <v-row>
-        <v-col cols="12" md="6"><OfficersTable :officers="officers"></OfficersTable></v-col>
-        <v-col cols="12" md="6"><CommitteeChairsTable :chairs="chairs"></CommitteeChairsTable></v-col>
+        <v-col md="6" sm="12"><OfficersTable :officers="officers"></OfficersTable></v-col>
+        <v-col md="6" sm="12"><CommitteeChairsTable :chairs="chairs"></CommitteeChairsTable></v-col>
       </v-row>
       <v-row>
         <v-col cols=12>
@@ -11,7 +11,7 @@
         </v-col>
       </v-row>
     </v-container>
-    
+
 
   </div>
 

@@ -2,7 +2,7 @@
   <div>
     <v-container>
       <v-row>
-        <v-col>
+        <v-col md="6" sm="12">
           <v-card height="100%">
             <v-card-title>Classes</v-card-title>
             <v-card-text>
@@ -26,7 +26,7 @@
           </v-card>
         </v-col>
 
-        <v-col>
+        <v-col md="6" sm="12">
           <v-card height="100%">
             <v-card-title>Requirements</v-card-title>
             <v-card-text>

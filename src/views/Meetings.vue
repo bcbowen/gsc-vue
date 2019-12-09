@@ -2,7 +2,7 @@
   <div>
     <v-container>
       <v-row>
-        <v-col cols="8">
+        <v-col lg="8" md="6" sm="12">
           <v-row>
             <v-col><MeetingInfo></MeetingInfo></v-col>
           </v-row>
@@ -10,7 +10,7 @@
             <v-col><HappyHour></HappyHour></v-col>
           </v-row>
         </v-col>
-        <v-col cols="4">
+        <v-col lg="4" md="6" sm="12">
           <v-row>
             <v-col><GeneralMinutes></GeneralMinutes></v-col>
           </v-row>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-row>
-      <v-col cols="8">
+      <v-col lg="8" md="6" sm="12">
         <v-card
           height="100%"
         >
@@ -15,7 +15,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="4">
+      <v-col lg="4" md="6" sm="12">
         <v-carousel
           continuous
           cycle="cycle"

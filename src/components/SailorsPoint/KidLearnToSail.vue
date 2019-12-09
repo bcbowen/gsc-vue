@@ -2,7 +2,7 @@
   <div>
     <v-container>
       <v-row>
-        <v-col>
+        <v-col cols="12">
           <h3>2019 LEARN-TO-SAIL SCHEDULE (kids ages 8 to 14 - level 1)</h3>
 
           <table>
@@ -27,7 +27,7 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col cols="7">
+        <v-col lg="7" md="6" sm="12">
           <p>
             <b>Registration for all camps:</b> Saturday May 4th; 9:00 to 10:00 AM at Sailor&apos;s Point.
             <br />Club members only may register as of January 2nd. There will be no rescheduling of any camp day due to bad weather.
@@ -37,7 +37,7 @@
           <br />
           <br />
         </v-col>
-        <v-col cols="5">
+        <v-col lg="5" md="6" sm="12">
           <v-carousel
             continuous
             cycle="cycle"
@@ -56,7 +56,7 @@
 
       </v-row>
       <v-row>
-        <v-col cols="5">
+        <v-col lg="5" md="6" sm="12">
           <h2>Summer Camps</h2>
 
           <h3>Summer Camp Schedule</h3>
@@ -73,7 +73,7 @@
             </tr>
           </table>
         </v-col>
-        <v-col cols="7">
+        <v-col lg="7" md="6" sm="12">
           <p>
             <b>Registrations:</b>
             <br />At Sailor&apos;s Point from 9:00 to 10:00 AM, accepted on or after the registration date for each session, but no later than one week prior to class date, on a first come first serve basis, no reservations and no class day registration accepted. Cash or checks only.

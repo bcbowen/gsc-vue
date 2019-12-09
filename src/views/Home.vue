@@ -1,29 +1,29 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="8">
+      <v-col lg="8" md="6" sm="12">
         <v-card>
-              <v-card-title>About</v-card-title>
-              <v-card-text>The GULFSTREAM SAILING CLUB, founded in 1957, is one of Broward County's oldest sailing clubs. The Sailing Club is run by its members who are volunteers and are committed to preserving fun, safety and affordability in Fort Lauderdale yachting.
-                Boat ownership is not a prerequisite!
+          <v-card-title>About</v-card-title>
+          <v-card-text>The GULFSTREAM SAILING CLUB, founded in 1957, is one of Broward County's oldest sailing clubs. The Sailing Club is run by its members who are volunteers and are committed to preserving fun, safety and affordability in Fort Lauderdale yachting.
+          Boat ownership is not a prerequisite!
 
-                We are an active club, holding and participating in many activities and events, including:
+          We are an active club, holding and participating in many activities and events, including:
 
-                Races on the ocean and at the lake in Hollywood throughout the year
-                Our annual Beach Bash each August
-                Our annual Gulfstream Sailing Club Regatta, which began in 1991, continues to this day with multiple sailing clubs participating each year
-                Sailing lessons for Adults and Children at Sailors Point.
-                In case you are interested, you can read the current Club bylaws <a href="http://gulfstreamsailingclub.org/inc/Bylaws201810_1.pdf" target="_blank">here</a>.
-            </v-card-text>
-
+          Races on the ocean and at the lake in Hollywood throughout the year
+          Our annual Beach Bash each August
+          Our annual Gulfstream Sailing Club Regatta, which began in 1991, continues to this day with multiple sailing clubs participating each year
+          Sailing lessons for Adults and Children at Sailors Point.
+          In case you are interested, you can read the current Club bylaws <a href="http://gulfstreamsailingclub.org/inc/Bylaws201810_1.pdf" target="_blank">here</a>.
+          </v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="4">
+      <v-col  lg="4" md="6" sm="12">
         <Sponsors></Sponsors>
       </v-col>
     </v-row>
+
     <v-row>
-      <v-col cols="8">
+      <v-col lg="8" md="6" sm="12">
         <v-card>
           <v-card-title>What's New</v-card-title>
           <v-card-text>
@@ -37,27 +37,23 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col>
+      <v-col  lg="4" md="6" sm="12">
         <v-card  max-height="250px" class="overflow-y-auto">
           <TillerTales></TillerTales>
         </v-card>
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col>
-
       </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
-import Sponsors from '../components/Sponsors'
-import TillerTales from '../components/TillerTales'
+import Sponsors from "../components/Sponsors";
+import TillerTales from "../components/TillerTales";
 
 export default {
   components: {
-    Sponsors, TillerTales
+    Sponsors,
+    TillerTales
   }
-}
+};
 </script>

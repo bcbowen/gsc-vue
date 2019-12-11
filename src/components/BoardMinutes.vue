@@ -9,16 +9,11 @@
 
             <p v-for="(month, i) in year.months" :key="i">
 
-              <v-btn
-                width="100%"
-                class="flex"
-                color="primary"
-                :to="`http://www.gulfstreamsailingclub.org/docs/board_mins/Board${year.year}${month}.pdf`"
-                dark
-                target="_blank"
-                >{{ getMonth(month) }}
-            </v-btn>
-            
+              <a
+                :href="`http://www.gulfstreamsailingclub.org/docs/board_mins/Board${year.year}${month}.pdf`"
+                target="_new"
+              >{{ getMonth(month) }}</a>
+
             </p>
           </v-expansion-panel-content>
         </v-expansion-panel>

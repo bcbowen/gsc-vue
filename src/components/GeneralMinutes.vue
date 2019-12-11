@@ -21,6 +21,7 @@
 
 <script>
 import MinutesData  from '../data/minutesData.json'
+import { getMonth } from '../monthParse.js'
 export default {
   name: "GeneralMinutes",
 
@@ -30,10 +31,7 @@ export default {
     };
   },
   methods: {
-    getMonth(val) {
-      const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-      return months[parseInt(val)-1]
-    }
+    getMonth
   }
 };
 </script>

@@ -1,27 +1,31 @@
-[
-    {
-       "Session": 1, 
-       "Registration": "Jan 5", 
-       "Classes": ["Jan 20", "Jan 10", "Feb 3", "Feb 10", "Feb 17", "Feb 24"]  
-    },
-    {
-        "Session": 2, 
-        "Registration": "Feb 23", 
-        "Classes": ["Mar 10", "Mar 17", "Mar 24", "Mar 31", "Apr 7", "Apr 14"]  
-     },
-     {
-        "Session": 3, 
-        "Registration": "Apr 13", 
-        "Classes": ["Apr 28", "May 5", "May 19", "Jun 2", "Jun 9", "Jun 15"]  
-     },
-     {
-        "Session": 4, 
-        "Registration": "Aug 10", 
-        "Classes": ["Aug 25", "Sep 8", "Sep 15", "Sep 22", "Sep 29", "Oct 6"]  
-     },
-     {
-        "Session": 5, 
-        "Registration": "Oct 5", 
-        "Classes": ["Oct 20", "Oct 27", "Nov 3", "Nov 17", "Nov 24", "Dec 8"]  
-     }
-]
+{
+   "Year": 2020,
+   "Sessions": [
+   
+      {
+         "Session": 1, 
+         "Registration": "January 4", 
+         "Classes": ["January 12", "January 19", "January 26", "February 2", "February 9", "February 16"]  
+      },
+      {
+          "Session": 2, 
+          "Registration": "February 1", 
+          "Classes": ["March 1", "March 8", "March 15", "March 22", "April 29", "April 5"]  
+       },
+       {
+          "Session": 3, 
+          "Registration": "April 4", 
+          "Classes": ["April 19", "April 26", "May 3", "May 17", "May 24", "June 7"]  
+       },
+       {
+          "Session": 4, 
+          "Registration": "August 1", 
+          "Classes": ["August 16", "August 23", "August 30", "September 13", "September 20", "September 27"]  
+       },
+       {
+          "Session": 5, 
+          "Registration": "September 26", 
+          "Classes": ["October 11", "October 18", "October 25", "November 1", "November 8", "November 15"]  
+       }
+  ]
+}

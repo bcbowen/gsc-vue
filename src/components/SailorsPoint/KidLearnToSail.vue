@@ -3,27 +3,7 @@
     <v-container>
       <v-row>
         <v-col cols="12">
-          <h3>2019 LEARN-TO-SAIL SCHEDULE (kids ages 8 to 14 - level 1)</h3>
-
-          <table>
-            <thead>
-              <th>&nbsp;</th>
-              <th>
-                <b>Registration:</b>
-              </th>
-              <th>Class 1</th>
-              <th>Class 2</th>
-              <th>Class 3</th>
-              <th>Class 4</th>
-              <th>Class 5</th>
-              <th>Class 6</th>
-            </thead>
-            <tr v-for="session in KidsSchedule" :key="session.Session">
-              <td>Session {{session.Session}}:</td>
-              <td>{{session.Registration}}</td>
-              <td v-for="(c, i) in session.Classes" :key="i">{{c}}</td>
-            </tr>
-          </table>
+          <KidsSchedule :scheduleData="KidsSchedule"></KidsSchedule>
         </v-col>
       </v-row>
       <v-row>
@@ -116,6 +96,7 @@
 <script>
 import KidsLTSScheduleData from "@/data/kidsSchedule.json";
 import CampScheduleData from "@/data/campSchedule.json";
+import KidsSchedule from "./KidsSchedule.vue"
 const images = [];
 for (let i = 1; i < 21; i++) {
   images.push(require(`@/assets/KLS/2019summer_${i}.jpg`));
@@ -128,8 +109,10 @@ export default {
       CampSchedule: CampScheduleData,
       KidsSchedule: KidsLTSScheduleData,
       klsImages: images
-    };
-  }
+    }
+  },
+  components: { KidsSchedule }
+
 };
 </script>
 

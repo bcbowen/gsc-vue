@@ -1,0 +1,60 @@
+<template>
+  <div>
+    <h3>{{ scheduleData.Year }} Learn-to-Sail Schedule (kids ages 8 to 14 - level 1)</h3>
+    <v-form>
+      <v-select
+        :items="scheduleData.Sessions"
+        item-text="Session"
+        item-value="Session"
+        label="Session Number"
+        @change="selectSession"
+        v-model="selectedSession"
+      ></v-select>
+      <v-list>
+        <v-list-item>Registration: {{ selectedSession.Registration }}</v-list-item>
+        <v-list-item>Class 1: {{ selectedSession.Classes[0] }}</v-list-item>
+        <v-list-item>Class 2: {{ selectedSession.Classes[1] }}</v-list-item>
+        <v-list-item>Class 3: {{ selectedSession.Classes[2] }}</v-list-item>
+        <v-list-item>Class 4: {{ selectedSession.Classes[3] }}</v-list-item>
+        <v-list-item>Class 5: {{ selectedSession.Classes[4] }}</v-list-item>
+        <v-list-item>Class 6: {{ selectedSession.Classes[5] }}</v-list-item>
+      </v-list>
+    </v-form>
+  </div>
+</template>
+
+<script>
+export default {
+  data () {
+    return {
+      selectedSession: this.scheduleData.Sessions[0]
+    }
+  },
+  props: {
+    scheduleData: {
+      type: Object
+    }
+  },
+  methods: {
+    selectSession: function (id) {
+      let index = 0
+      for (var i = 0; i < this.scheduleData.Sessions.length; i++) {
+        if (this.scheduleData.Sessions[i].Session === id) {
+          index = i
+          break
+        }
+      }
+      this.selectedSession = this.scheduleData.Sessions[index]
+    }
+  },
+  computed: {
+    sessionLabel: function () {
+      return "x"
+    }
+  }
+
+}
+</script>
+
+<style lang="scss" scoped>
+</style>

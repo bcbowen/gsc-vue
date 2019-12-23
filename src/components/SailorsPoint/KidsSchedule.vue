@@ -1,6 +1,7 @@
 <template>
   <div>
     <h3>{{ scheduleData.Year }} Learn-to-Sail Schedule (kids ages 8 to 14 - level 1)</h3>
+    <h4>Sessions:</h4>
     <v-form>
       <v-select
         :items="scheduleData.Sessions"
@@ -46,13 +47,7 @@ export default {
       }
       this.selectedSession = this.scheduleData.Sessions[index]
     }
-  },
-  computed: {
-    sessionLabel: function () {
-      return "x"
-    }
   }
-
 }
 </script>
 

@@ -71,8 +71,11 @@ import Directions from "../components/SailorsPoint/Directions";
 export default {
   name: "SailorsPoint",
   components: { Directions },
-  created() {
-    this.$router.push("sailorspoint/about");
+  mounted () {
+    if (this.$router.currentRoute.fullPath.toLowerCase() === '/sailorspoint') {
+      this.$router.push("sailorspoint/about");
+    }
+    console.log(this.$router.currentRoute)
   }
 };
 </script>

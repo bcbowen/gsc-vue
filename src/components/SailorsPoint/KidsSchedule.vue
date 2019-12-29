@@ -1,6 +1,29 @@
 <template>
   <div>
-    <h3>{{ scheduleData.Year }} Learn-to-Sail Schedule (kids ages 8 to 14 - level 1)</h3>
+    <h3></h3>
+    
+    <v-card max-height="300px" class="overflow-y-auto">
+      <v-card-title>{{ scheduleData.Year }} Learn-to-Sail Schedule (kids ages 8 to 14 - level 1)</v-card-title>
+      <v-expansion-panels accordion>
+        <v-expansion-panel v-for="(session, i) in scheduleData.Sessions" :key="i">
+          <v-expansion-panel-header><b>Session {{ session.Session }}</b></v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <table>
+              <tr>
+                <th>Registration</th>
+                <td>{{ session.Registration }}</td>
+              </tr>
+              <tr v-for="(classDate, classIndex) in session.Classes" :key="classIndex">
+                <th>Class {{ classIndex + 1}}</th>
+                <td>{{ classDate }}</td>
+              </tr>
+            </table>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+      </v-expansion-panels>
+    </v-card>
+
+    <!--
     <h4>Sessions:</h4>
     <v-form>
       <v-select
@@ -21,6 +44,7 @@
         <v-list-item>Class 6: {{ selectedSession.Classes[5] }}</v-list-item>
       </v-list>
     </v-form>
+    -->
   </div>
 </template>
 
@@ -28,7 +52,7 @@
 export default {
   data () {
     return {
-      selectedSession: this.scheduleData.Sessions[0]
+      //selectedSession: this.scheduleData.Sessions[0]
     }
   },
   props: {
@@ -37,7 +61,7 @@ export default {
     }
   },
   methods: {
-    selectSession: function (id) {
+    /*selectSession: function (id) {
       let index = 0
       for (var i = 0; i < this.scheduleData.Sessions.length; i++) {
         if (this.scheduleData.Sessions[i].Session === id) {
@@ -47,6 +71,7 @@ export default {
       }
       this.selectedSession = this.scheduleData.Sessions[index]
     }
+    */
   }
 }
 </script>

@@ -5,7 +5,7 @@
         <v-col cols="12"><h1>Sailors Point</h1></v-col>
       </v-row>
       <v-row>
-        <v-col cols="">
+        <v-col cols="12">
           <v-navigation-drawer permanent="true">
             <v-list
               dark="true"
@@ -54,7 +54,7 @@
 
           </v-navigation-drawer>
         </v-col>
-        <v-col cols="9">
+        <v-col cols="12">
           <v-row>
             <v-col cols="12"><router-view></router-view></v-col>
             <v-col cols="12"><Directions/></v-col>

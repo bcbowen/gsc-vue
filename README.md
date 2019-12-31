@@ -1,5 +1,10 @@
 # gsc vue
 
+Website for GulfStream Sailing Club  
+https://gulfstreamsailingclub.org
+
+
+
 ## Project setup
 ```
 npm install

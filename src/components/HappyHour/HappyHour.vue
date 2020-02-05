@@ -13,5 +13,3 @@
     </v-card>
   </div>
 </template>
-
-

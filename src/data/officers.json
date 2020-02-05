@@ -8,25 +8,25 @@
     {
         "id": 2, 
         "Title": "Vice Commodore", 
-        "Name": "Paul Jehlen", 
+        "Name": "Eric Kobrin", 
         "Email": "vicecommodore@gulfstreamsailingclub.org"
     },
     {
         "id": 3, 
         "Title": "Rear Commodore", 
-        "Name": "Eric Kobrin", 
+        "Name": "Linda Gossett", 
         "Email": "rearcommodore@gulfstreamsailingclub.org"
     },
     {
         "id": 4, 
         "Title": "Secretary", 
-        "Name": "Sam Walker", 
+        "Name": "Kay Harrison", 
         "Email": "secretary@gulfstreamsailingclub.org"
     },
     {
         "id": 5, 
         "Title": "Treasurer", 
-        "Name": "Paul Hinden", 
+        "Name": "Ben Bowen", 
         "Email": "treasurer@gulfstreamsailingclub.org"
     },
     {
@@ -44,19 +44,19 @@
     {
         "id": 8, 
         "Title": "Board Member", 
-        "Name": "Joffre DiSabatino", 
+        "Name": "Paul Hinden", 
         "Email": "board@gulfstreamsailingclub.org"
     },
     {
         "id": 9, 
         "Title": "Board Member", 
-        "Name": "Linda Gossett", 
+        "Name": "David Notman", 
         "Email": "board@gulfstreamsailingclub.org"
     },
     {
         "id": 10, 
         "Title": "Board Member", 
-        "Name": "Gregg Henry", 
+        "Name": "Mary Brown", 
         "Email": "board@gulfstreamsailingclub.org"
     }
 

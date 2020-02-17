@@ -3,11 +3,22 @@
     <v-container>
       <v-row>
         <v-col>
-          <h1>Gulfstream Regatta 2020</h1>
-          <h4>More Info coming soon!</h4>
+          <h1>30th Annual Gulfstream Regatta 2020</h1>
         </v-col>
       </v-row>
       <v-row>
+<v-col>
+          <v-card>
+            <v-card-title>Forms</v-card-title>
+            <v-card-text>
+              <ul>
+                <li><a target="_blank" href="https://www.gulfstreamsailingclub.org/docs/Regatta/2020NOR.pdf">Notice of Race</a></li>
+                <li><a target="_blank" href="https://www.gulfstreamsailingclub.org/docs/Regatta/waiver.pdf">Waiver</a></li>
+                <li><a target="_blank" href="https://www.gulfstreamsailingclub.org/docs/Regatta/2020Entry.pdf">Entry Form </a></li>
+              </ul>
+            </v-card-text>
+          </v-card>
+        </v-col>
         <v-col>
           <v-carousel
             continuous
@@ -26,16 +37,17 @@
         </v-col>
       </v-row>
     </v-container>
+
   </div>
 </template>
 
 <script>
-const images = [];
+const images = []
 for (let i = 1; i < 15; i++) {
-  images.push(require(`@/assets/Regatta/regatta_${i}.jpg`));
+  images.push(require(`@/assets/Regatta/regatta_${i}.jpg`))
 }
 export default {
-  data() {
+  data () {
     return {
       pics: images
     }

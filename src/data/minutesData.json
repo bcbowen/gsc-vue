@@ -163,7 +163,7 @@
   "BoardMinutes": [
     {
       "year": 2020,
-      "months": ["01"]
+      "months": ["02", "01"]
     },
     {
       "year": 2019,

@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <h2>2019 Adult Learn-to-Sail Schedule</h2>
+      <h2>2020 Adult Learn-to-Sail Schedule</h2>
 
       <table width="640px">
         <thead>
@@ -15,6 +15,7 @@
           <td>{{ row.Registration }}</td>
         </tr>
       </table>
+      <p><strong>* No class in December</strong></p>
 
       <br />
       <h4>Additional Information:</h4>
@@ -31,7 +32,7 @@
           <b>Cancelations:</b>
           A <b class="highlight">50% fee</b> applies to any cancelation within (1) WEEK of the class start date.
         </li>
-        <li><b>Boat Rental Fees (after class taken):</b> Non-members - $20.00/day; Members - $5.00/day</li>
+        <li><b>Boat Rental Fees (after class taken):</b> Non-members - $20.00/day; Members - $10.00/day</li>
         <li><b>Club Membership: (not required)</b> $140.00 / $100.00 - first year / renewal. With class $100.00 / $100.00 first year/renewal.</li>
       </ul>
     </v-container>
@@ -39,14 +40,14 @@
 </template>
 
 <script>
-import ScheduleData from "@/data/adultSchedule.json";
+import ScheduleData from '@/data/adultSchedule.json'
 export default {
-  data() {
+  data () {
     return {
       Schedule: ScheduleData
-    };
+    }
   }
-};
+}
 </script>
 
 <style scoped>

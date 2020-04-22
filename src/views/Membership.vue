@@ -68,8 +68,8 @@
 
 <script>
 export default {
-  name: "Membership"
-};
+  name: 'Membership'
+}
 </script>
 
 <style lang="scss" scoped>

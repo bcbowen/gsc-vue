@@ -47,13 +47,13 @@
 </template>
 
 <script>
-import Sponsors from "../components/Sponsors";
-import TillerTales from "../components/TillerTales";
+import Sponsors from '../components/Sponsors'
+import TillerTales from '../components/TillerTales'
 
 export default {
   components: {
     Sponsors,
     TillerTales
   }
-};
+}
 </script>

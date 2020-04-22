@@ -20,7 +20,6 @@
 
 <script>
 export default {
-  name: "Meetings"
-};
+  name: 'Meetings'
+}
 </script>
-

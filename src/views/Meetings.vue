@@ -24,10 +24,10 @@
 </template>
 
 <script>
-import HappyHour from "../components/HappyHour/HappyHour"
-import GeneralMinutes from "../components/GeneralMinutes"
-import BoardMinutes from "../components/BoardMinutes"
-import MeetingInfo from "../components/MeetingInfo"
+import HappyHour from '../components/HappyHour/HappyHour'
+import GeneralMinutes from '../components/GeneralMinutes'
+import BoardMinutes from '../components/BoardMinutes'
+import MeetingInfo from '../components/MeetingInfo'
 export default {
   components: { HappyHour, GeneralMinutes, BoardMinutes, MeetingInfo }
 }

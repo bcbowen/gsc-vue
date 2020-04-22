@@ -20,20 +20,20 @@
 </template>
 
 <script>
-import MinutesData  from '../data/minutesData.json'
+import MinutesData from '../data/minutesData.json'
 import { getMonth } from '../monthParse.js'
 export default {
-  name: "GeneralMinutes",
+  name: 'GeneralMinutes',
 
-  data() {
+  data () {
     return {
       minutes: MinutesData.GeneralMinutes
-    };
+    }
   },
   methods: {
     getMonth
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

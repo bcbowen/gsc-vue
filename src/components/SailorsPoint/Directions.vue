@@ -27,8 +27,8 @@
 
 <script>
 export default {
-  name: "Directions"
-};
+  name: 'Directions'
+}
 </script>
 
 <style lang="scss" scoped>

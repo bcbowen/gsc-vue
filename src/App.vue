@@ -92,33 +92,33 @@
 
 <script>
 export default {
-  name: "App",
-  data() {
+  name: 'App',
+  data () {
     return {
       links: [
         {
-          label: "Home",
-          url: "/"
+          label: 'Home',
+          url: '/'
         },
         {
-          label: "Sailors Point",
-          url: "/sailorsPoint"
+          label: 'Sailors Point',
+          url: '/sailorsPoint'
         },
         {
-          label: "Contacts",
-          url: "/contacts"
+          label: 'Contacts',
+          url: '/contacts'
         },
         {
-          label: "Meetings",
-          url: "/meetings"
+          label: 'Meetings',
+          url: '/meetings'
         },
         {
-          label: "Calendar",
-          url: "/calendar"
+          label: 'Calendar',
+          url: '/calendar'
         },
         {
-          label: "Photos",
-          url: "/photos"
+          label: 'Photos',
+          url: '/photos'
         },
         /*
         {
@@ -127,21 +127,21 @@ export default {
         },
         */
         {
-          label: "Membership",
-          url: "/membership"
+          label: 'Membership',
+          url: '/membership'
         },
         {
-          label: "Regatta",
-          url: "/regatta"
+          label: 'Regatta',
+          url: '/regatta'
         }
       ]
-    };
+    }
   },
-  created: function() {
-    console.log("hi");
-    console.log(this.$vuetify.breakpoint.name);
+  created: function () {
+    console.log('hi')
+    console.log(this.$vuetify.breakpoint.name)
   }
-};
+}
 </script>
 
 <style scoped>

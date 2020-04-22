@@ -131,25 +131,25 @@
 </template>
 
 <script>
-import KidsLTSScheduleData from "@/data/kidsSchedule.json";
-import CampScheduleData from "@/data/campSchedule.json";
-import KidsSchedule from "./KidsSchedule.vue";
-const images = [];
+import KidsLTSScheduleData from '@/data/kidsSchedule.json'
+import CampScheduleData from '@/data/campSchedule.json'
+import KidsSchedule from './KidsSchedule.vue'
+const images = []
 for (let i = 1; i < 21; i++) {
-  images.push(require(`@/assets/KLS/2019summer_${i}.jpg`));
+  images.push(require(`@/assets/KLS/2019summer_${i}.jpg`))
 }
-//images.push(require('@/assets/KLS/2019summer_1.jpg'))
-//images.push('http://www.gulfstreamsailingclub.org/images/SPONSORS/2019/BlueWater.png')
+// images.push(require('@/assets/KLS/2019summer_1.jpg'))
+// images.push('http://www.gulfstreamsailingclub.org/images/SPONSORS/2019/BlueWater.png')
 export default {
-  data() {
+  data () {
     return {
       CampSchedule: CampScheduleData,
       KidsSchedule: KidsLTSScheduleData,
       klsImages: images
-    };
+    }
   },
   components: { KidsSchedule }
-};
+}
 </script>
 
 <style scoped>

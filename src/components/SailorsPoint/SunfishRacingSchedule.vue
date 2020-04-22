@@ -37,36 +37,36 @@
 </template>
 
 <script>
-import SunfishData from "@/data/sunfishSchedule.json";
+import SunfishData from '@/data/sunfishSchedule.json'
 export default {
-  data() {
+  data () {
     return {
       SunfishSchedule: SunfishData
-    };
+    }
   },
   methods: {
-    getMonth(val) {
+    getMonth (val) {
       const months = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December"
-      ];
-      return months[parseInt(val) - 1];
+        'January',
+        'February',
+        'March',
+        'April',
+        'May',
+        'June',
+        'July',
+        'August',
+        'September',
+        'October',
+        'November',
+        'December'
+      ]
+      return months[parseInt(val) - 1]
     },
-    formatDate(raceDate) {
-      return `${this.getMonth(raceDate.Month)} ${raceDate.Day}`;
+    formatDate (raceDate) {
+      return `${this.getMonth(raceDate.Month)} ${raceDate.Day}`
     }
   }
-};
+}
 </script>
 
 <style scoped>

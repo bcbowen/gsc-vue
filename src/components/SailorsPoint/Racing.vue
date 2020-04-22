@@ -29,11 +29,11 @@
 </template>
 
 <script>
-import SunfishRacingSchedule from "../SailorsPoint/SunfishRacingSchedule";
+import SunfishRacingSchedule from '../SailorsPoint/SunfishRacingSchedule'
 export default {
-  name: "Racing",
+  name: 'Racing',
   components: { SunfishRacingSchedule }
-};
+}
 </script>
 
 <style lang="scss" scoped>

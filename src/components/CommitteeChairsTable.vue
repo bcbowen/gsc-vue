@@ -23,7 +23,7 @@
 
 <script>
 export default {
-  name: "CommitteeChairsTable",
+  name: 'CommitteeChairsTable',
   props: {
     chairs: {
       type: Array,
@@ -32,9 +32,9 @@ export default {
   },
   data: () => ({
     headers: [
-      { text: "Committee", value: "Committee" },
-      { text: "Name", value: "Name" }
+      { text: 'Committee', value: 'Committee' },
+      { text: 'Name', value: 'Name' }
     ]
   })
-};
+}
 </script>

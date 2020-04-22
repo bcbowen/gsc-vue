@@ -22,20 +22,20 @@
 </template>
 
 <script>
-import CommitteeChairsTable from "../components/CommitteeChairsTable";
-import OfficersTable from "../components/OfficersTable";
-import officersData from "../data/officers.json";
-import chairsData from "../data/chairs.json";
+import CommitteeChairsTable from '../components/CommitteeChairsTable'
+import OfficersTable from '../components/OfficersTable'
+import officersData from '../data/officers.json'
+import chairsData from '../data/chairs.json'
 export default {
-  name: "ContactsPage",
+  name: 'ContactsPage',
   components: { OfficersTable, CommitteeChairsTable },
-  data() {
+  data () {
     return {
       officers: officersData,
       chairs: chairsData
-    };
+    }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

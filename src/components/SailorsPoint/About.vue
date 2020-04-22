@@ -36,19 +36,19 @@
 </template>
 
 <script>
-const images = [];
+const images = []
 for (let i = 1; i < 8; i++) {
-  images.push(require(`@/assets/SailorsPointAbout/about_${i}.jpg`));
+  images.push(require(`@/assets/SailorsPointAbout/about_${i}.jpg`))
 }
 
 export default {
-  name: "About",
-  data() {
+  name: 'About',
+  data () {
     return {
       pics: images
-    };
+    }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

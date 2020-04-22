@@ -23,7 +23,7 @@
 
 <script>
 export default {
-  name: "OfficersTable",
+  name: 'OfficersTable',
   props: {
     officers: {
       type: Array,
@@ -32,9 +32,9 @@ export default {
   },
   data: () => ({
     headers: [
-      { text: "Title", value: "Title" },
-      { text: "Name", value: "Name" }
+      { text: 'Title', value: 'Title' },
+      { text: 'Name', value: 'Name' }
     ]
   })
-};
+}
 </script>

@@ -19,20 +19,20 @@
   </div>
 </template>
 <script>
-import TillerTalesData  from '../data/tillerTales.json'
+import TillerTalesData from '../data/tillerTales.json'
 import { getMonth } from '../monthParse.js'
 export default {
-  name: "TillerTales",
+  name: 'TillerTales',
 
-  data() {
+  data () {
     return {
       tillerTalesData: TillerTalesData
-    };
+    }
   },
   methods: {
     getMonth
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

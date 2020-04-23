@@ -22,57 +22,28 @@
           active-class="sponsorImage"
         >
           <v-row>
-            <v-col >
-                <v-row align="center" justify="center">
-                  <img :src="sponsor.path" :height="sponsor.height" :width="sponsor.width" />
-                </v-row>
+            <v-col>
+              <v-row align="center" justify="center">
+                <img :src="sponsor.path" :height="sponsor.height" :width="sponsor.width" />
+              </v-row>
             </v-col>
           </v-row>
         </v-carousel-item>
       </v-carousel>
     </v-card>
-
   </div>
 </template>
 
 <script>
+import sponsorData from "@/data/sponsors.json";
 export default {
-  name: 'Sponsors',
-  data () {
+  name: "Sponsors",
+  data() {
     return {
-      sponsors: [
-        {
-          path:
-            'http://www.gulfstreamsailingclub.org/images/SPONSORS/2019/BlueWater.png',
-          href: 'http://www.bluewaterweb.com/',
-          height: '130',
-          width: '328'
-        },
-        {
-          path:
-            'http://www.gulfstreamsailingclub.org/images/SPONSORS/2019/BOW.png',
-          href: 'http://www.boatownerswarehouse.com/',
-          height: '144',
-          width: '200'
-        },
-        {
-          path:
-            'http://www.gulfstreamsailingclub.org/images/SPONSORS/2019/pbMarine.png',
-          href: 'http://www.playboymarine.com/',
-          height: '134',
-          width: '260'
-        },
-        {
-          path:
-            'http://www.gulfstreamsailingclub.org/images/SPONSORS/2019/SAILORMAN.png',
-          href: 'http://www.sailorman.com/',
-          height: '200',
-          width: '200'
-        }
-      ]
-    }
+      sponsors: sponsorData.sponsors
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

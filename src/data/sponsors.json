@@ -1,0 +1,22 @@
+{
+  "sponsors": [
+    {
+      "path": "http://www.gulfstreamsailingclub.org/images/SPONSORS/2019/BlueWater.png",
+      "href": "http://www.bluewaterweb.com/",
+      "height": 130,
+      "width": 328
+    },
+    {
+      "path": "http://www.gulfstreamsailingclub.org/images/SPONSORS/2019/BOW.png",
+      "href": "http://www.boatownerswarehouse.com/",
+      "height": 144,
+      "width": 200
+    },
+    {
+      "path": "http://www.gulfstreamsailingclub.org/images/SPONSORS/2019/SAILORMAN.png",
+      "href": "http://www.sailorman.com/",
+      "height": 200,
+      "width": 200
+    }
+  ]
+}

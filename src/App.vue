@@ -8,11 +8,7 @@
 
     <!-- class="hidden-sm-and-down" -->
 
-    <v-toolbar
-      dark="true"
-      color="primary darken-1"
-      v-if="$vuetify.breakpoint.lgAndUp"
-    >
+    <v-toolbar dark="true" color="primary darken-1" v-if="$vuetify.breakpoint.lgAndUp">
       <v-toolbar-items>
         <v-btn
           v-for="link in links"
@@ -25,22 +21,11 @@
     </v-toolbar>
     <!-- class="hidden-md-and-up" -->
 
-    <v-navigation-drawer
-      v-if="$vuetify.breakpoint.mdAndDown"
-      permanent="true"
-    >
-      <v-list
-        dark="true"
-        color="primary darken-1"
-        dense="true">
-         <v-list-item v-for="link in links" :key="`${link.label}-header-link`">
-          <v-btn
-            class="flex"
-            text
-            :to="link.url"
-            dark
-          >{{ link.label }}</v-btn>
-         </v-list-item>
+    <v-navigation-drawer v-if="$vuetify.breakpoint.mdAndDown" permanent="true">
+      <v-list dark="true" color="primary darken-1" dense="true">
+        <v-list-item v-for="link in links" :key="`${link.label}-header-link`">
+          <v-btn class="flex" text :to="link.url" dark>{{ link.label }}</v-btn>
+        </v-list-item>
 
         <!--
         <v-list-title>
@@ -92,33 +77,33 @@
 
 <script>
 export default {
-  name: 'App',
-  data () {
+  name: "App",
+  data() {
     return {
       links: [
         {
-          label: 'Home',
-          url: '/'
+          label: "Home",
+          url: "/"
         },
         {
-          label: 'Sailors Point',
-          url: '/sailorsPoint'
+          label: "Sailors Point",
+          url: "/sailorsPoint"
         },
         {
-          label: 'Contacts',
-          url: '/contacts'
+          label: "Contacts",
+          url: "/contacts"
         },
         {
-          label: 'Meetings',
-          url: '/meetings'
+          label: "Meetings",
+          url: "/meetings"
         },
         {
-          label: 'Calendar',
-          url: '/calendar'
+          label: "Calendar",
+          url: "/calendar"
         },
         {
-          label: 'Photos',
-          url: '/photos'
+          label: "Photos",
+          url: "/photos"
         },
         /*
         {
@@ -127,21 +112,21 @@ export default {
         },
         */
         {
-          label: 'Membership',
-          url: '/membership'
-        },
+          label: "Membership",
+          url: "/membership"
+        } /*,
         {
           label: 'Regatta',
           url: '/regatta'
-        }
+        }*/
       ]
-    }
+    };
   },
-  created: function () {
-    console.log('hi')
-    console.log(this.$vuetify.breakpoint.name)
+  created: function() {
+    console.log("hi");
+    console.log(this.$vuetify.breakpoint.name);
   }
-}
+};
 </script>
 
 <style scoped>

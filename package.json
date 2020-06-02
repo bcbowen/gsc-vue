@@ -27,6 +27,6 @@
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-vuetify": "^1.1.2",
     "vue-template-compiler": "^2.6.11",
-    "vuetify-loader": "^1.4.3"
+    "vuetify-loader": "^1.4.4"
   }
 }

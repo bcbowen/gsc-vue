@@ -28,17 +28,17 @@
 </template>
 
 <script>
-import Directions from "../components/SailorsPoint/Directions";
+import Directions from '../components/SailorsPoint/Directions'
 export default {
-  name: "SailorsPoint",
+  name: 'SailorsPoint',
   components: { Directions },
-  mounted() {
-    if (this.$router.currentRoute.fullPath.toLowerCase() === "/sailorspoint") {
-      this.$router.push("sailorspoint/about");
+  mounted () {
+    if (this.$router.currentRoute.fullPath.toLowerCase() === '/sailorspoint') {
+      this.$router.push('sailorspoint/about')
     }
-    console.log(this.$router.currentRoute);
+    console.log(this.$router.currentRoute)
   }
-};
+}
 </script>
 
 <style>

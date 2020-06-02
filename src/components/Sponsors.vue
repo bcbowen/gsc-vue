@@ -35,15 +35,15 @@
 </template>
 
 <script>
-import sponsorData from "@/data/sponsors.json";
+import sponsorData from '@/data/sponsors.json'
 export default {
-  name: "Sponsors",
-  data() {
+  name: 'Sponsors',
+  data () {
     return {
       sponsors: sponsorData.sponsors
-    };
+    }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

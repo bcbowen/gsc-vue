@@ -18,7 +18,7 @@ export default new Router({
       name: 'sailorsPoint',
       component: () =>
         import(
-          /* webpackChunkName: "sailorsPoint" */ './views/SailorsPoint2020.vue'
+          /* webpackChunkName: "sailorsPoint" */ './views/SailorsPoint.vue'
         ),
       children: [
         {

@@ -2,7 +2,7 @@
   <div>
     <h3>Gulfstream Sailing Club Racing Philosophy</h3>
 
-    <br />We believe that racing furthers skill development for sailors young and old. Accordingly, Gulfstream Sailing Club holds an active schedule of dinghy and ocean capable racing. See below for the racing schedule for our Optimist (for children), Sunfish, and 420 racing. Racing is open to members and non-members alike.
+    <br />We believe that racing furthers skill development for sailors young and old. Accordingly, Gulfstream Sailing Club holds an active schedule of dinghy and ocean capable racing. See below for the racing schedule for Sunfish. Racing is open to members and non-members alike.
     <br />
     <br />
 
@@ -29,11 +29,11 @@
 </template>
 
 <script>
-import SunfishRacingSchedule from '../SailorsPoint/SunfishRacingSchedule'
+import SunfishRacingSchedule from '../SailorsPoint/SunfishRacingSchedule';
 export default {
   name: 'Racing',
-  components: { SunfishRacingSchedule }
-}
+  components: { SunfishRacingSchedule },
+};
 </script>
 
 <style lang="scss" scoped>

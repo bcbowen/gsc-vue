@@ -39,7 +39,6 @@
                 <li>Registration and Safety Deposit forms</li>
               </ul>Classes are limited to 10 students to allow each student access to his/her own Optimist sailboat for instruction on the water. Classes will be given by a US Sailing certified instructor and one assistant. Emphasis will be on safety, fun and learning! Parent support is greatly appreciated.
               <h4>Youth Level II Program</h4>This class is designed for students who have already taken the Youth Learn-to-Sail Program and continues the instruction with more emphasis on improved boat handling of an Optimist and an introduction to racing. Class will be 15-18 hours of instruction.
-              <h4>After School Classes</h4>We are working out schedules for an after school program. Please check back for more information.
             </v-card-text>
           </v-card>
         </v-col>
@@ -50,8 +49,8 @@
 
 <script>
 export default {
-  name: 'Classes'
-}
+  name: 'Classes',
+};
 </script>
 
 <style lang="scss" scoped>

@@ -43,6 +43,24 @@
               <b>Camp runs from 9:00 to 1:00</b>
               <br />
               <br />
+              <h2>Summer Camps</h2>
+              <h3>Summer Camp Schedule</h3>
+              <span class="redText">
+                Note: Summer Camps for 2020 are all
+                <strong>booked</strong>
+              </span>
+              <table>
+                <thead>
+                  <th>Camp</th>
+                  <th>Start</th>
+                  <th>End</th>
+                </thead>
+                <tr v-for="session in CampSchedule" :key="session.Session">
+                  <td>{{ session.Session }}</td>
+                  <td class="full">{{ session.Start }}</td>
+                  <td class="full">{{ session.End }}</td>
+                </tr>
+              </table>
             </v-card-text>
           </v-card>
         </v-col>
@@ -64,29 +82,7 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col md="6" cols="12">
-          <v-card height="100%">
-            <v-card-text>
-              <h2>Summer Camps</h2>
-
-              <h3>Summer Camp Schedule</h3>
-              <table>
-                <thead>
-                  <th>Camp</th>
-                  <th>Start</th>
-                  <th>End</th>
-                </thead>
-                <tr v-for="session in CampSchedule" :key="session.Session">
-                  <td>{{ session.Session }}</td>
-                  <td>{{ session.Start }}</td>
-                  <td>{{ session.End }}</td>
-                </tr>
-              </table>
-            </v-card-text>
-          </v-card>
-        </v-col>
-
-        <v-col md="6" cols="12">
+        <v-col cols="12">
           <v-card>
             <v-card-text>
               <p>
@@ -131,29 +127,36 @@
 </template>
 
 <script>
-import KidsLTSScheduleData from '@/data/kidsSchedule.json'
-import CampScheduleData from '@/data/campSchedule.json'
-import KidsSchedule from './KidsSchedule.vue'
-const images = []
+import KidsLTSScheduleData from '@/data/kidsSchedule.json';
+import CampScheduleData from '@/data/campSchedule.json';
+import KidsSchedule from './KidsSchedule.vue';
+const images = [];
 for (let i = 1; i < 21; i++) {
-  images.push(require(`@/assets/KLS/2019summer_${i}.jpg`))
+  images.push(require(`@/assets/KLS/2019summer_${i}.jpg`));
 }
 // images.push(require('@/assets/KLS/2019summer_1.jpg'))
 // images.push('http://www.gulfstreamsailingclub.org/images/SPONSORS/2019/BlueWater.png')
 export default {
-  data () {
+  data() {
     return {
       CampSchedule: CampScheduleData,
       KidsSchedule: KidsLTSScheduleData,
-      klsImages: images
-    }
+      klsImages: images,
+    };
   },
-  components: { KidsSchedule }
-}
+  components: { KidsSchedule },
+};
 </script>
 
 <style scoped>
 .container {
   padding: 0;
+}
+
+td.full {
+  background-color: darkgrey;
+}
+.redText {
+  color: #ff0000;
 }
 </style>

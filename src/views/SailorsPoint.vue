@@ -8,46 +8,21 @@
       </v-row>
       <v-row>
         <v-col cols="12">
-          <v-navigation-drawer permanent="true">
-            <v-list dark="true" color="primary darken-1" dense="true">
-              <v-list-item>
-                <v-btn to="/sailorspoint/about" color="info" class="mr-2 flex">About</v-btn>
-              </v-list-item>
-              <v-list-item>
-                <v-btn to="/sailorspoint/classes" color="info" class="mr-2 flex">Classes</v-btn>
-              </v-list-item>
-              <v-list-item>
-                <v-btn
-                  to="/sailorspoint/kidLearnToSail"
-                  color="info"
-                  class="mr-2 flex"
-                >Kid Learn To Sail</v-btn>
-              </v-list-item>
-              <v-list-item>
-                <v-btn
-                  to="/sailorspoint/adultLearnToSail"
-                  color="info"
-                  class="mr-2 flex"
-                >Adult Learn To Sail</v-btn>
-              </v-list-item>
-              <v-list-item>
-                <v-btn to="/sailorspoint/racing" color="info" class="mr-2 flex">Racing</v-btn>
-              </v-list-item>
-
-              <!--
-              <v-list-title>
-                <v-list-title-action></v-list-title-action>
-                <v-list-title-content><v-list-tile-title>{{ item.title }}</v-list-tile-title></v-list-title-content>
-              </v-list-title>
-              -->
-            </v-list>
-          </v-navigation-drawer>
+          <v-tabs>
+            <v-tab>About</v-tab>
+            <v-tab>Classes</v-tab>
+            <v-tab>Kids Learn To Sail</v-tab>
+            <v-tab>Adult Learn To Sail</v-tab>
+            <v-tab>Racing</v-tab>
+            <v-tab-item><About /></v-tab-item>
+            <v-tab-item><Classes /></v-tab-item>
+            <v-tab-item><KidLearnToSail /></v-tab-item>
+            <v-tab-item><AdultLearnToSail /></v-tab-item>
+            <v-tab-item><Racing /></v-tab-item>
+          </v-tabs>
         </v-col>
         <v-col cols="12">
           <v-row>
-            <v-col cols="12">
-              <router-view></router-view>
-            </v-col>
             <v-col cols="12">
               <Directions />
             </v-col>
@@ -66,9 +41,14 @@
 
 <script>
 import Directions from '../components/SailorsPoint/Directions'
+import About from '../components/SailorsPoint/About'
+import Classes from '../components/SailorsPoint/Classes'
+import KidLearnToSail from '../components/SailorsPoint/KidLearnToSail'
+import AdultLearnToSail from '../components/SailorsPoint/AdultLearnToSail'
+import Racing from '../components/SailorsPoint/Racing'
 export default {
   name: 'SailorsPoint',
-  components: { Directions },
+  components: { Directions, About, Classes, KidLearnToSail, AdultLearnToSail, Racing },
   mounted () {
     if (this.$router.currentRoute.fullPath.toLowerCase() === '/sailorspoint') {
       this.$router.push('sailorspoint/about')

@@ -43,7 +43,7 @@
               <ul>
                 <li>Happy hour is every Tuesday when there isn't a General Meeting, on Zoom.</li>
                 <li>
-                  Activities at the lake have resumed. Kids summer camps are limited to half capacity, but are already
+                  Activities at the lake have resumed. Kids weekday classes are limited to half capacity, but are already
                   <strong>SOLD OUT</strong>.
                 </li>
                 <li>The GSC Regatta would have been 4/18, but was also cancelled this year.</li>
@@ -67,15 +67,15 @@
 </template>
 
 <script>
-import Sponsors from '../components/Sponsors';
-import TillerTales from '../components/TillerTales';
+import Sponsors from '../components/Sponsors'
+import TillerTales from '../components/TillerTales'
 
 export default {
   components: {
     Sponsors,
-    TillerTales,
-  },
-};
+    TillerTales
+  }
+}
 </script>
 <style scoped>
 .redText {

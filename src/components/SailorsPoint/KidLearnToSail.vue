@@ -36,22 +36,22 @@
           <v-card height="100%">
             <v-card-text>
               <p>
-                <b>Registration for all camps:</b> Saturday May 4th; 9:00 to 10:00 AM at Sailor&apos;s Point.
-                <br />Club members only may register as of January 2nd. There will be no rescheduling of any camp day due to bad weather.
+                <b>Registration for weekday classes:</b> Saturday May 4th; 9:00 to 10:00 AM at Sailor&apos;s Point.
+                <br />Club members only may register as of January 2nd. There will be no rescheduling of any class day due to bad weather.
               </p>
 
-              <b>Camp runs from 9:00 to 1:00</b>
+              <b>Class runs from 9:00 to 1:00</b>
               <br />
               <br />
-              <h2>Summer Camps</h2>
-              <h3>Summer Camp Schedule</h3>
+              <h2>Kids Weekday Class</h2>
+              <h3>Schedule</h3>
               <span class="redText">
-                Note: Summer Camps for 2020 are all
+                Note: Weekday Classes for 2020 are all
                 <strong>booked</strong>
               </span>
               <table>
                 <thead>
-                  <th>Camp</th>
+                  <th>Session</th>
                   <th>Start</th>
                   <th>End</th>
                 </thead>
@@ -96,17 +96,17 @@
               </p>
 
               <p>
-                <b>Summer Camp Fees (non-members):</b>
+                <b>Weekday Class Fees (non-members):</b>
                 <br />$200.00 for the first child and $175.00 for each additional.
               </p>
 
               <p>
-                <b>Summer Camp Fees (members and City of Hollywood residents):</b>
+                <b>Weekday Class Fees (members and City of Hollywood residents):</b>
                 <br />$150.00 for the first child and $125.00 for each additional. Proof of residency necessary (Water or Electric bill).
               </p>
 
               <p>
-                <b>Summer Camp Early Drop Off (9:00 AM) Fee:</b>
+                <b>Weekday Class Early Drop Off (9:00 AM) Fee:</b>
                 <br />$30.00 per week.
               </p>
 
@@ -117,7 +117,7 @@
 
               <h3>Class Hours</h3>
               <p>Weekend Classes - 9:00 AM to Noon (except where noted)</p>
-              <p>Summer Camps - 9:00 AM to 1:00 PM (no lunch provided)</p>
+              <p>Weekday Classes - 9:00 AM to 1:00 PM (no lunch provided)</p>
             </v-card-text>
           </v-card>
         </v-col>
@@ -127,25 +127,24 @@
 </template>
 
 <script>
-import KidsLTSScheduleData from '@/data/kidsSchedule.json';
-import CampScheduleData from '@/data/campSchedule.json';
-import KidsSchedule from './KidsSchedule.vue';
-const images = [];
+import KidsLTSScheduleData from '@/data/kidsSchedule.json'
+import CampScheduleData from '@/data/campSchedule.json'
+import KidsSchedule from './KidsSchedule.vue'
+const images = []
 for (let i = 1; i < 21; i++) {
-  images.push(require(`@/assets/KLS/2019summer_${i}.jpg`));
+  images.push(require(`@/assets/KLS/2019summer_${i}.jpg`))
 }
-// images.push(require('@/assets/KLS/2019summer_1.jpg'))
-// images.push('http://www.gulfstreamsailingclub.org/images/SPONSORS/2019/BlueWater.png')
+
 export default {
-  data() {
+  data () {
     return {
       CampSchedule: CampScheduleData,
       KidsSchedule: KidsLTSScheduleData,
-      klsImages: images,
-    };
+      klsImages: images
+    }
   },
-  components: { KidsSchedule },
-};
+  components: { KidsSchedule }
+}
 </script>
 
 <style scoped>

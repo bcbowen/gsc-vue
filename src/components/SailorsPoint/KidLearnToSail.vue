@@ -3,7 +3,10 @@
     <v-container>
       <v-row>
         <v-col cols="12">
-          <KidsSchedule :scheduleData="KidsSchedule"></KidsSchedule>The following are required to register for classes:
+          <KidsSchedule :scheduleData="KidsSchedule"></KidsSchedule>
+          <br/>
+
+          <h3>The following are required to register for classes:</h3>
           <ul>
             <li>
               Registration Form (Can be downloaded
@@ -22,11 +25,33 @@
             </li>
             <li>Check for $50 damage/security (only cashed if failure to meet the items on the security waiver)</li>
             <li>Front/Back copy of healthcare card</li>
+            <li>
+              COVID-19 Waiver (Can be downloaded
+              <a
+                href="http://www.gulfstreamsailingclub.org/docs/SailorsPointForms/COVID-19-Waiver-doc.pdf"
+                target="_new"
+              >here</a>)
+            </li>
           </ul>
-
+          <br/>
           <span>
-            Please do
-            <b>not</b> bring electronics, except for a phone to call your parents.
+          <h3>Key Items to Remember:</h3>
+          <ul>
+            <li>Everyone (kids &amp; adults) will be required to wear a mask on land at all times.  Once the kids are on individual boats, they can remove their masks.  You must supply your own masks in order to attend.</li>
+            <li>Additional children, siblings or friends must stay in your car.  We also highly recommend that parents stay in their cars upon drop offs and pick-ups.  If a parent gets out of their car, they must have a mask and their temperature will be taken.</li>
+            <li>Please bring your own drinks to keep hydrated.</li>
+            <li>All kids are required to wear a life jacket at all times.  Bring your own or you can borrow one from Sailor&apos;s Point.</li>
+            <li>Wear closed toed shoes with rubber soles that can get wet. No flip flops or Crocs.</li>
+            <li>Wear hats, long sleeve sun shirts, sunglasses and sunscreen to protect yourself from the sun.  Remind your child to reapply sunscreen.</li>
+            <li>There will be no rescheduling or refunding of any sailing classes due to bad weather.  If there is lightning, the boats will not go out on the water.</li>
+            <li>Don't forget your towel or change of clothes.</li>
+            <li>Bringing electronic devices is not recommended and GSC will not be liable for any damage or missing items.  If you bring them, they should only be for calling your parents.</li>
+            <li>There will be a swim test on day one.</li>
+          </ul>
+          <br/>
+          </span>
+          <span>
+            <h4>Please do <strong>not</strong> bring electronics, except for a phone to call your parents.</h4>
           </span>
         </v-col>
       </v-row>

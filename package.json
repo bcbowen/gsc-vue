@@ -11,8 +11,8 @@
     "core-js": "^2.6.11",
     "npm-check-updates": "^3.2.2",
     "vue": "^2.6.12",
-    "vue-router": "^3.4.3",
-    "vuetify": "^2.3.10",
+    "vue-router": "^3.4.5",
+    "vuetify": "^2.3.12",
     "vuex": "^3.5.1"
   },
   "devDependencies": {
@@ -27,7 +27,7 @@
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-vuetify": "^1.1.2",
     "vue-template-compiler": "^2.6.12",
-    "vuetify-loader": "^1.4.4"
+    "vuetify-loader": "^1.6.0"
   },
   "eslintConfig": {
     "root": true,

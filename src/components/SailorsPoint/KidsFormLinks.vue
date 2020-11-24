@@ -3,6 +3,10 @@
     <h3>The following are required to register for classes:</h3>
     <ul>
       <li>
+        Sailors Point Registration Checklist (Can be downloaded
+        <a href="http://www.gulfstreamsailingclub.org/docs/SailorsPointForms/2021_Kids_Registration_Checklist.pdf" target="_new">here</a>)
+      </li>
+      <li>
         Registration Form (Can be downloaded
         <a href="http://www.gulfstreamsailingclub.org/docs/SailorsPointForms/2021_Kids_Registration_Form.pdf" target="_new">here</a>)
       </li>
@@ -14,8 +18,8 @@
       <li>Check for $50 damage/security (only cashed if failure to meet the items on the security waiver)</li>
       <li>Front/Back copy of healthcare card</li>
       <li>
-        Sailors Point Registration Checklist (Can be downloaded
-        <a href="http://www.gulfstreamsailingclub.org/docs/SailorsPointForms/2021_Kids_Registration_Checklist.pdf" target="_new">here</a>)
+        COVID-19 Waiver (Can be downloaded
+        <a href="http://www.gulfstreamsailingclub.org/docs/SailorsPointForms/COVID-19-Waiver-doc.pdf" target="_new">here</a>)
       </li>
     </ul>
   </div>

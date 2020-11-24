@@ -1,61 +1,61 @@
 [
     {
         "id": 1, 
-        "Committee": "Ocean Race", 
+        "Title": "Ocean Race", 
         "Name": "Open", 
         "Email": "oceanracing@gulfstreamsailingclub.org"
     },
     {
         "id": 2, 
-        "Committee": "Nominating", 
+        "Title": "Nominating", 
         "Name": "Kay Harrison", 
         "Email": "nominating@gulfstreamsailingclub.org"
     },
     {
         "id": 3, 
-        "Committee": "Auditing", 
+        "Title": "Auditing", 
         "Name": "Rosemary Chlick-Mahon", 
         "Email": "board@gulfstreamsailingclub.org"
     },
     {
         "id": 4, 
-        "Committee": "Cruise", 
+        "Title": "Cruise", 
         "Name": "Open", 
         "Email": "cruising@gulfstreamsailingclub.org"
     },
     {
         "id": 5, 
-        "Committee": "Social", 
+        "Title": "Social", 
         "Name": "Mary Brown", 
         "Email": "social@gulfstreamsailingclub.org"
     },
     {
         "id": 6, 
-        "Committee": "Membership", 
+        "Title": "Membership", 
         "Name": "Ben Bowen", 
         "Email": "membership@gulfstreamsailingclub.org"
     },
     {
         "id": 7, 
-        "Committee": "Publicity", 
+        "Title": "Publicity", 
         "Name": "Open", 
         "Email": "board@gulfstreamsailingclub.org"
     },
     {
         "id": 8, 
-        "Committee": "Legislative", 
+        "Title": "Legislative", 
         "Name": "Open", 
         "Email": "board@gulfstreamsailingclub.org"
     },
     {
         "id": 9, 
-        "Committee": "Program", 
+        "Title": "Program", 
         "Name": "Open", 
         "Email": "board@gulfstreamsailingclub.org"
     },
     {
         "id": 10, 
-        "Committee": "Trophy", 
+        "Title": "Trophy", 
         "Name": "Mike Sawzak", 
         "Email": "board@gulfstreamsailingclub.org"
     }

@@ -3,10 +3,10 @@
     <v-container>
       <v-row>
         <v-col md="6" sm="12">
-          <OfficersTable :officers="officers"></OfficersTable>
+          <MemberList :members="officers" :header="'2020 Governing Board'"></MemberList>
         </v-col>
         <v-col md="6" sm="12">
-          <CommitteeChairsTable :chairs="chairs"></CommitteeChairsTable>
+          <MemberList :members="chairs" :header="'2020 Committee Chairs'"></MemberList>
         </v-col>
       </v-row>
       <v-row>
@@ -22,13 +22,14 @@
 </template>
 
 <script>
-import CommitteeChairsTable from '../components/CommitteeChairsTable'
-import OfficersTable from '../components/OfficersTable'
+// import CommitteeChairsTable from '../components/CommitteeChairsTable'
+// import OfficersTable from '../components/OfficersTable'
+import MemberList from '../components/MemberList'
 import officersData from '../data/officers.json'
 import chairsData from '../data/chairs.json'
 export default {
   name: 'ContactsPage',
-  components: { OfficersTable, CommitteeChairsTable },
+  components: { MemberList },
   data () {
     return {
       officers: officersData,

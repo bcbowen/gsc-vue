@@ -13,7 +13,7 @@
         disable-sort="true"
         hide-default-footer="true"
       >
-        <template v-slot:item.Name="{ item }">
+        <template item.Name="{ item }">
           <a :href="`mailto:${item.Email}`">{{ item.Name }}</a>
         </template>
       </v-data-table>

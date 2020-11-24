@@ -5,34 +5,7 @@
         <v-col cols="12">
           <KidsSchedule :scheduleData="KidsSchedule"></KidsSchedule>
           <br/>
-
-          <h3>The following are required to register for classes:</h3>
-          <ul>
-            <li>
-              Registration Form (Can be downloaded
-              <a
-                href="http://www.gulfstreamsailingclub.org/docs/SailorsPointForms/2015RegistrationForm.pdf"
-                target="_new"
-              >here</a>)
-            </li>
-            <li>Check for $180 ($125 for club members or Hollywood residents with proof of residency)</li>
-            <li>
-              Security Deposit Form (Can be downloaded
-              <a
-                href="http://www.gulfstreamsailingclub.org/docs/SailorsPointForms/Kids_Safety_Deposit.pdf"
-                target="_new"
-              >here</a>)
-            </li>
-            <li>Check for $50 damage/security (only cashed if failure to meet the items on the security waiver)</li>
-            <li>Front/Back copy of healthcare card</li>
-            <li>
-              COVID-19 Waiver (Can be downloaded
-              <a
-                href="http://www.gulfstreamsailingclub.org/docs/SailorsPointForms/COVID-19-Waiver-doc.pdf"
-                target="_new"
-              >here</a>)
-            </li>
-          </ul>
+          <KidsFormLinks />
           <br/>
           <span>
           <h3>Key Items to Remember:</h3>
@@ -61,31 +34,16 @@
           <v-card height="100%">
             <v-card-text>
               <p>
-                <b>Registration for weekday classes:</b> Saturday May 4th; 9:00 to 10:00 AM at Sailor&apos;s Point.
+                <strong>Registration for all camps -</strong> Saturday May 1st; 9:00 to 10:00 AM at Sailor&apos;s Point.
                 <br />Club members only may register as of January 2nd. There will be no rescheduling of any class day due to bad weather.
               </p>
 
               <b>Class runs from 9:00 to 1:00</b>
               <br />
               <br />
-              <h2>Kids Weekday Class</h2>
-              <h3>Schedule</h3>
-              <span class="redText">
-                Note: Weekday Classes for 2020 are all
-                <strong>booked</strong>
-              </span>
-              <table>
-                <thead>
-                  <th>Session</th>
-                  <th>Start</th>
-                  <th>End</th>
-                </thead>
-                <tr v-for="session in CampSchedule" :key="session.Session">
-                  <td>{{ session.Session }}</td>
-                  <td class="full">{{ session.Start }}</td>
-                  <td class="full">{{ session.End }}</td>
-                </tr>
-              </table>
+              <h2>Summer Camps</h2>
+              <h3>Camp Dates:</h3>
+              <CampSchedule />
             </v-card-text>
           </v-card>
         </v-col>
@@ -110,39 +68,7 @@
         <v-col cols="12">
           <v-card>
             <v-card-text>
-              <p>
-                <b>Registrations:</b>
-                <br />At Sailor&apos;s Point from 9:00 to 10:00 AM, accepted on or after the registration date for each session, but no later than one week prior to class date, on a first come first serve basis, no reservations and no class day registration accepted. Cash or checks only.
-              </p>
-
-              <p>
-                <b>Weekend Class Fees:</b>
-                <br />$180.00 or $125.00 for Club Members and City of Hollywood residents. Proof of residency necessary (Water or Electric bill).
-              </p>
-
-              <p>
-                <b>Weekday Class Fees (non-members):</b>
-                <br />$200.00 for the first child and $175.00 for each additional.
-              </p>
-
-              <p>
-                <b>Weekday Class Fees (members and City of Hollywood residents):</b>
-                <br />$150.00 for the first child and $125.00 for each additional. Proof of residency necessary (Water or Electric bill).
-              </p>
-
-              <p>
-                <b>Weekday Class Early Drop Off (9:00 AM) Fee:</b>
-                <br />$30.00 per week.
-              </p>
-
-              <p>
-                <b>Security Deposit:</b>
-                <br />ALL classes require a separate $50.00 damage/security check or cash that will be returned at the end of the last class, if no damage was done to any of the equipment.
-              </p>
-
-              <h3>Class Hours</h3>
-              <p>Weekend Classes - 9:00 AM to Noon (except where noted)</p>
-              <p>Weekday Classes - 9:00 AM to 1:00 PM (no lunch provided)</p>
+              <KidsRegistrations />
             </v-card-text>
           </v-card>
         </v-col>
@@ -152,9 +78,12 @@
 </template>
 
 <script>
+import CampSchedule from './CampSchedule'
+import KidsFormLinks from './KidsFormLinks'
 import KidsLTSScheduleData from '@/data/kidsSchedule.json'
-import CampScheduleData from '@/data/campSchedule.json'
+import KidsRegistrations from './KidsRegistrations'
 import KidsSchedule from './KidsSchedule.vue'
+
 const images = []
 for (let i = 1; i < 21; i++) {
   images.push(require(`@/assets/KLS/2019summer_${i}.jpg`))
@@ -163,12 +92,11 @@ for (let i = 1; i < 21; i++) {
 export default {
   data () {
     return {
-      CampSchedule: CampScheduleData,
       KidsSchedule: KidsLTSScheduleData,
       klsImages: images
     }
   },
-  components: { KidsSchedule }
+  components: { KidsSchedule, CampSchedule, KidsFormLinks, KidsRegistrations }
 }
 </script>
 

@@ -7,10 +7,6 @@
           <v-expansion-panel-header><b>Session {{ session.Session }}</b></v-expansion-panel-header>
           <v-expansion-panel-content>
             <table>
-              <tr>
-                <th>Registration</th>
-                <td>{{ session.Registration }}</td>
-              </tr>
               <tr v-for="(classDate, classIndex) in session.Classes" :key="classIndex">
                 <th>Class {{ classIndex + 1}}</th>
                 <td>{{ classDate }}</td>

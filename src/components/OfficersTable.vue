@@ -2,7 +2,7 @@
   <div>
     <v-card max-width="500" class="mx-auto">
       <v-toolbar color="primary" dark>
-        <v-toolbar-title>Governing Board</v-toolbar-title>
+        <v-toolbar-title>2020 Governing Board</v-toolbar-title>
         <div class="flex-grow-1"></div>
       </v-toolbar>
       <v-data-table
@@ -13,7 +13,7 @@
         disable-sort="true"
         hide-default-footer="true"
       >
-        <template v-slot:item.Name="{ item }">
+        <template item.Name="{ item }">
           <a :href="`mailto:${item.Email}`">{{ item.Name }}</a>
         </template>
       </v-data-table>

@@ -49,8 +49,8 @@
 
 <script>
 export default {
-  name: 'Classes',
-};
+  name: 'Classes'
+}
 </script>
 
 <style lang="scss" scoped>

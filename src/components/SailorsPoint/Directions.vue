@@ -6,11 +6,10 @@
       <br />
       <br />
 
-      <h4>Directions to Sailor's Point:</h4>Take I-95 to Sheridan
-      <br />Go East on Sheridan to US 1
-      <br />Turn Right (South) on US 1 to Johnson (large intersection with traffic light)
-      <br />Turn Left (East) on Johnson and go through the 4-way stop sign
-      <br />Turn Right (South) on 12th
+      <h4>Directions to Sailor's Point:</h4>
+      From 95 exit at Sheridan St. and go East to Federal Hwy
+      <br />Turn Right (South) on US 1 to Johnson St.
+      <br />Turn Left (East) on Johnson to 10th Ave and turn South (right)
       <br />At North Northlake Drive turn Left (East)
       <br />At the dead end, turn Right (South) and go through the gates directly ahead
       <br />

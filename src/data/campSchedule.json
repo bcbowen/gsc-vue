@@ -1,47 +1,47 @@
 [
   {
     "Session": 1,
-    "Start": "Jun 8",
-    "End": "Jun 12"
+    "Start": "Jun 14",
+    "End": "Jun 18"
   },
   {
     "Session": 2,
-    "Start": "Jun 15",
-    "End": "Jun 19"
-  },
-  {
-    "Session": 3,
-    "Start": "Jun 22",
+    "Start": "Jun 21",
     "End": "Jun 25"
   },
   {
+    "Session": 3,
+    "Start": "Jun 28",
+    "End": "Jul 2"
+  },
+  {
+    "Session": -1,
+    "Start": "Jul 5",
+    "End": "Jul 9"
+  },
+  {
     "Session": 4,
-    "Start": "Jul 6",
-    "End": "Jul 10"
+    "Start": "Jul 12",
+    "End": "Jul 16"
   },
   {
     "Session": 5,
-    "Start": "Jul 13",
-    "End": "Jul 17"
+    "Start": "Jul 19",
+    "End": "Jul 23"
   },
   {
     "Session": 6,
-    "Start": "Jul 20",
-    "End": "Jul 24"
+    "Start": "Jul 26",
+    "End": "Jul 30"
   },
   {
     "Session": 7,
-    "Start": "Jul 27",
-    "End": "Jul 31"
+    "Start": "Aug 2",
+    "End": "Aug 6"
   },
   {
     "Session": 8,
-    "Start": "Aug 3",
-    "End": "Aug 7"
-  },
-  {
-    "Session": 9,
-    "Start": "Aug 10",
-    "End": "Aug 14"
+    "Start": "Aug 9",
+    "End": "Aug 13"
   }
 ]

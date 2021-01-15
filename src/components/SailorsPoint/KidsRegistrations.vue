@@ -31,9 +31,8 @@
     <p>Summer Camps - 9:00 AM to 1:00 PM (no lunch provided)</p>
 
     <b>Requirements:</b>
-    <p>Able to swim (Swim test 1st day); closed toed shoes (rubber soles); Sun
-      screen &apos; water</p>
+    <p>Able to swim (Swim test 1st day); closed toed shoes (rubber soles); Sun screen &apos; water</p>
 
-    <p>For more information contact: Erin Gallagher <a href="mailto:Kidssailing921@gmail.com">Kidssailing921@gmail.com</a></p>
+    <p>For more information contact: <a href="mailto:Kidssailing921@gmail.com">Kidssailing921@gmail.com</a></p>
   </div>
 </template>

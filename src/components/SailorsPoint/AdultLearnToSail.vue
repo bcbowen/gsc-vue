@@ -40,14 +40,14 @@
 </template>
 
 <script>
-import ScheduleData from '@/data/adultSchedule.json';
+import ScheduleData from '@/data/adultSchedule.json'
 export default {
-  data() {
+  data () {
     return {
-      Schedule: ScheduleData,
-    };
-  },
-};
+      Schedule: ScheduleData
+    }
+  }
+}
 </script>
 
 <style scoped>

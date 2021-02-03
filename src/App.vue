@@ -121,10 +121,6 @@ export default {
         } */
       ]
     }
-  },
-  created: function () {
-    console.log('hi')
-    console.log(this.$vuetify.breakpoint.name)
   }
 }
 </script>

@@ -3,10 +3,10 @@
     <v-container>
       <v-row>
         <v-col md="6" sm="12">
-          <MemberList :members="officers" :header="'2020 Governing Board'"></MemberList>
+          <MemberList :members="officers" :header="'2021 Governing Board'"></MemberList>
         </v-col>
         <v-col md="6" sm="12">
-          <MemberList :members="chairs" :header="'2020 Committee Chairs'"></MemberList>
+          <MemberList :members="chairs" :header="'2021 Committee Chairs'"></MemberList>
         </v-col>
       </v-row>
       <v-row>

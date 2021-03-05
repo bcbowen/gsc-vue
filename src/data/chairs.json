@@ -2,25 +2,25 @@
     {
         "id": 1, 
         "Title": "Ocean Race", 
-        "Name": "Open", 
+        "Name": "David Notman", 
         "Email": "oceanracing@gulfstreamsailingclub.org"
     },
     {
         "id": 2, 
         "Title": "Nominating", 
-        "Name": "Kay Harrison", 
+        "Name": "Brenda Kobrin", 
         "Email": "nominating@gulfstreamsailingclub.org"
     },
     {
         "id": 3, 
         "Title": "Auditing", 
-        "Name": "Rosemary Chlick-Mahon", 
+        "Name": "Linda Gossett", 
         "Email": "board@gulfstreamsailingclub.org"
     },
     {
         "id": 4, 
         "Title": "Cruise", 
-        "Name": "Open", 
+        "Name": "Gregg Henry", 
         "Email": "cruising@gulfstreamsailingclub.org"
     },
     {
@@ -38,19 +38,19 @@
     {
         "id": 7, 
         "Title": "Publicity", 
-        "Name": "Open", 
+        "Name": "Phil Decker", 
         "Email": "board@gulfstreamsailingclub.org"
     },
     {
         "id": 8, 
         "Title": "Legislative", 
-        "Name": "Open", 
+        "Name": "Sam Walker", 
         "Email": "board@gulfstreamsailingclub.org"
     },
     {
         "id": 9, 
         "Title": "Program", 
-        "Name": "Open", 
+        "Name": "Andrea Keyser", 
         "Email": "board@gulfstreamsailingclub.org"
     },
     {

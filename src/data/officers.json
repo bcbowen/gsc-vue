@@ -2,19 +2,19 @@
     {
         "id": 1, 
         "Title": "Commodore", 
-        "Name": "Phil Decker", 
+        "Name": "Eric Kobrin", 
         "Email": "commodore@gulfstreamsailingclub.org"
     },
     {
         "id": 2, 
         "Title": "Vice Commodore", 
-        "Name": "Eric Kobrin", 
+        "Name": "Linda Gossett", 
         "Email": "vicecommodore@gulfstreamsailingclub.org"
     },
     {
         "id": 3, 
         "Title": "Rear Commodore", 
-        "Name": "Linda Gossett", 
+        "Name": "David Notman", 
         "Email": "rearcommodore@gulfstreamsailingclub.org"
     },
     {
@@ -32,7 +32,7 @@
     {
         "id": 6, 
         "Title": "Past Commodore", 
-        "Name": "Ben Bowen", 
+        "Name": "Phil Decker", 
         "Email": "board@gulfstreamsailingclub.org"
     },
     {
@@ -50,7 +50,7 @@
     {
         "id": 9, 
         "Title": "Board Member", 
-        "Name": "David Notman", 
+        "Name": "Bob Schudy", 
         "Email": "board@gulfstreamsailingclub.org"
     },
     {

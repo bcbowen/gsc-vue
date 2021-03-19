@@ -26,7 +26,7 @@
         <li><b>Class Size:</b> (4) people minimum, maximum (10).</li>
         <li>
           <b>Registration:</b> Saturdays at Sailor&apos;s Point from 9:00 AM to 3:00 PM, or email us for mailing address. Due to the minimum class size, all registrations must be turned in (1) WEEK
-          prior to class start date. Please fill out this <a href="http://www.gulfstreamsailingclub.org/sailorspoint/docs/GSC-Adult LTS Registration.pdf">form</a>
+          prior to class start date. Please fill out this <a href="http://www.gulfstreamsailingclub.org/docs/SailorsPointForms/Adult_LTS_Registration.pdf">form</a>
         </li>
         <li>
           <b>Cancelations:</b>

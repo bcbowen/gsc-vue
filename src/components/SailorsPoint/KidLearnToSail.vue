@@ -34,8 +34,7 @@
           <v-card height="100%">
             <v-card-text>
               <p>
-                <strong>Registration for all camps -</strong> Saturday May 1st; 9:00 to 10:00 AM at Sailor&apos;s Point.
-                <br />Club members only may register as of January 2nd. There will be no rescheduling of any class day due to bad weather.
+                There will be no rescheduling of any class day due to bad weather.
               </p>
 
               <b>Class runs from 9:00 to 1:00</b>

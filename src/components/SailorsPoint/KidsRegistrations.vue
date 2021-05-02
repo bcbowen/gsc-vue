@@ -1,12 +1,6 @@
 <template>
   <div>
     <p>
-      <b>Registrations:</b>
-      <br />At Sailor&apos;s Point from 9:00 to 10:00 AM, accepted on or after the registration date for each session, but no later than one week prior to class date, on a first come first serve
-      basis. No reservations and no class day registration accepted. Cash or checks only.
-    </p>
-
-    <p>
       <b>Weekend Class Fees:</b>
       <br />$180.00 or $125.00 for Club Members and City of Hollywood residents. Proof of residency necessary (Water or Electric bill).
     </p>

@@ -25,10 +25,10 @@
             <li>Summer Camp (1 week)
               <ul>
                 <li>
-                  Hollywood Residents/Gulfstream Club Members: Check for $150 for the first child and $125 for each sibling  (Proof of residency required)
+                  Hollywood Residents/Gulfstream Club Members: Check for $150 (Proof of residency required)
                 </li>
                 <li>
-                  Non-Residents or Club Members: Check for $200 for first child and $175 for each sibling
+                  Non-Residents or Club Members: Check for $200
                 </li>
               </ul>
             </li>

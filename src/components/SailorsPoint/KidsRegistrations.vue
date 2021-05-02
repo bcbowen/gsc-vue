@@ -7,12 +7,12 @@
 
     <p>
       <b>Summer Camp Fees (non-members and non-residents of the City of Hollywood):</b>
-      <br />$200.00 for the first child and $175.00 for each additional.
+      <br />$200.00 each week.
     </p>
 
     <p>
       <b>Summer Camp Fees (members and City of Hollywood residents):</b>
-      <br />$150.00 for the first child and $125.00 for each additional. Proof of residency necessary (Water or Electric bill).
+      <br />$150.00 each week. Proof of residency necessary (Water or Electric bill).
     </p>
 
     <p>

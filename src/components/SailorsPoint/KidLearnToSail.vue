@@ -42,6 +42,7 @@
               <br />
               <h2>Summer Camps</h2>
               <h3>Camp Dates:</h3>
+              <strong class="redText">*** Note: Weeks 1 and 2 are already SOLD OUT</strong>
               <CampSchedule />
             </v-card-text>
           </v-card>

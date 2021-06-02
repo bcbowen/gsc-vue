@@ -7,7 +7,7 @@
           <p>
             <strong>
               Meetings are held on the third Tuesday of each month. <br />
-              Due to the recent pandemic, we have lost our previous regular meeting spot. Please check our Facebook site or email, or contact a 
+              Due to the recent pandemic, we have lost our previous regular meeting spot. Please check our Facebook site or email, or contact a
               current member for updates.
             </strong>
           </p>

@@ -2,73 +2,73 @@
   "Winter": {
     "Race1": {
       "Month": "1",
-      "Day": "5"
+      "Day": "9"
     },
     "Race2": {
       "Month": "1",
-      "Day": "26"
+      "Day": "30"
     },
     "Race3": {
       "Month": "2",
-      "Day": "16"
+      "Day": "20"
     },
     "Race4": {
       "Month": "3",
-      "Day": "9"
+      "Day": "13"
     }
   },
   "Spring": {
     "Race1": {
-      "Month": "3",
-      "Day": "30"
+      "Month": "4",
+      "Day": "3"
     },
     "Race2": {
       "Month": "4",
-      "Day": "20"
+      "Day": "24"
     },
     "Race3": {
       "Month": "5",
-      "Day": "11"
+      "Day": "15"
     },
     "Race4": {
       "Month": "6",
-      "Day": "1"
+      "Day": "5"
     }
   },
   "Summer": {
     "Race1": {
       "Month": "6",
-      "Day": "22"
+      "Day": "26"
     },
     "Race2": {
       "Month": "7",
-      "Day": "13"
+      "Day": "17"
     },
     "Race3": {
       "Month": "8",
-      "Day": "3"
+      "Day": "7"
     },
     "Race4": {
       "Month": "8",
-      "Day": "24"
+      "Day": "28"
     }
   },
   "Fall": {
     "Race1": {
       "Month": "9",
-      "Day": "14"
+      "Day": "18"
     },
     "Race2": {
       "Month": "10",
-      "Day": "5"
+      "Day": "9"
     },
     "Race3": {
       "Month": "10",
-      "Day": "26"
+      "Day": "30"
     },
     "Race4": {
       "Month": "11",
-      "Day": "16"
+      "Day": "20"
     }
   }
 }

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>2019 Sunfish Racing Schedule</h3>
+    <h3>2021 Sunfish Racing Schedule</h3>
     <table>
       <thead>
         <th>Winter Series</th>
@@ -68,7 +68,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>

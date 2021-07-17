@@ -19,7 +19,7 @@
     </p>
 
     <p>
-      <b>Sunfish Rental Fee:</b> $5.00 for club members, $20.00 for non members
+      <b>Sunfish Rental Fee:</b> $10.00 for club members, $20.00 for non members
     </p>
 
     <p>
